@@ -10,7 +10,7 @@
                         "id": null,
                         "title": "Ingresso dei partecipanti e apertura degli spazi espositivi",
                         "description": null,
-                        "color": "#FFFFFF",
+                        "color": "#808080",
                         "location": "Reception",
                         "presenters": null,
                         "tags": null
@@ -24,7 +24,7 @@
                         "id": null,
                         "title": "Benvenuto & Keynote",
                         "description": "",
-                        "color": "#FFFFFF",
+                        "color": "#808080",
                         "location": "Track 1 (BAROZZI)",
                         "presenters": "",
                         "tags": ""
@@ -102,7 +102,7 @@
                         "id": null,
                         "title": "Pausa Pranzo",
                         "description": "",
-                        "color": "#FFFFFF",
+                        "color": "#808080",
                         "location": "Area Pranzo / Coffee Break",
                         "presenters": null,
                         "tags": null
@@ -180,7 +180,7 @@
                         "id": null,
                         "title": "Coffee Break",
                         "description": "",
-                        "color": "#FFFFFF",
+                        "color": "#808080",
                         "location": "Area Pranzo / Coffee Break",
                         "presenters": null,
                         "tags": null
@@ -296,7 +296,7 @@
                         "id": null,
                         "title": "Ingresso dei partecipanti e apertura degli spazi espositivi",
                         "description": null,
-                        "color": "#FFFFFF",
+                        "color": "#808080",
                         "location": "Reception",
                         "presenters": null,
                         "tags": null
@@ -351,7 +351,7 @@
                         "id": null,
                         "title": "Pausa Pranzo",
                         "description": "",
-                        "color": "#FFFFFF",
+                        "color": "#808080",
                         "location": "Area Pranzo / Coffee Break",
                         "presenters": "",
                         "tags": ""
@@ -494,7 +494,7 @@
                         "id": null,
                         "title": "Benvenuto & Keynote",
                         "description": "",
-                        "color": "#FFFFFF",
+                        "color": "#808080",
                         "location": "Track 1 (BAROZZI)",
                         "presenters": "",
                         "tags": ""
@@ -508,7 +508,7 @@
                         "id": null,
                         "title": "",
                         "description": "",
-                        "color": "#FFFFFF",
+                        "color": "#808080",
                         "location": "Reception",
                         "presenters": "",
                         "tags": ""
@@ -618,7 +618,7 @@
                         "id": null,
                         "title": "Pausa Pranzo",
                         "description": "",
-                        "color": "#FFFFFF",
+                        "color": "#808080",
                         "location": "Area Pranzo / Coffee Break",
                         "presenters": "",
                         "tags": ""
@@ -760,7 +760,7 @@
                         "id": null,
                         "title": "",
                         "description": "",
-                        "color": "#FFFFFF",
+                        "color": "#808080",
                         "location": "Track 1 (BAROZZI)",
                         "presenters": "",
                         "tags": ""
@@ -774,7 +774,7 @@
                         "id": null,
                         "title": "",
                         "description": "",
-                        "color": "#FFFFFF",
+                        "color": "#808080",
                         "location": "Track 1 (BAROZZI)",
                         "presenters": "",
                         "tags": ""
@@ -876,7 +876,7 @@
                         "id": null,
                         "title": "Pausa Pranzo",
                         "description": "",
-                        "color": "#FFFFFF",
+                        "color": "#808080",
                         "location": "Reception",
                         "presenters": "",
                         "tags": ""
