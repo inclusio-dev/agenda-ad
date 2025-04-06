@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Accessibility Days 2025</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Agenda Accessibility Days  2025</h1>
+        </header>
+
+        <section class="filters" aria-label="Filtri per la programmazione">
+            <div class="filter-group">
+                <div class="filter-title">Filtra per giorno</div>
+                <select id="day-filter">
+                    <option value="all">Tutti i giorni</option>
+                    <!-- Verrà popolato con JavaScript -->
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <div class="filter-title">Filtra per location</div>
+                <select id="location-filter">
+                    <option value="all">Tutte le location</option>
+                    <!-- Verrà popolato con JavaScript -->
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <div class="filter-title">Cerca</div>
+                <input type="text" id="search-input" placeholder="Cerca per titolo, relatore o tag...">
+                <button id="search-button">Cerca</button>
+                <button id="reset-button">Reset</button>
+            </div>
+        </section>
+
+        <main id="program-container">
+            <!-- Il contenuto verrà generato dinamicamente con JavaScript -->
+        </main>
+    </div>
+
+    <script src="./script.js"></script>
+
+    <footer>© Copyright Accessibility Days APS 2025 - Tutti i diritti riservati</footer>
+</body>
+</html>

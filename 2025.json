@@ -1,0 +1,970 @@
+[
+    {
+        "date": "2025-05-15",
+        "label": "Sessioni del giovedì (15 Maggio 2025)",
+        "events": [
+            {
+                "start": "08:30",
+                "items": [
+                    {
+                        "id": null,
+                        "title": "Ingresso dei partecipanti e apertura degli spazi espositivi",
+                        "description": null,
+                        "color": "#FFFFFF",
+                        "location": "Reception",
+                        "presenters": null,
+                        "tags": null
+                    }
+                ]
+            },
+            {
+                "start": "09:30",
+                "items": [
+                    {
+                        "id": null,
+                        "title": "Benvenuto & Keynote",
+                        "description": "",
+                        "color": "#FFFFFF",
+                        "location": "Track 1 (BAROZZI)",
+                        "presenters": "",
+                        "tags": ""
+                    }
+                ]
+            },
+            {
+                "start": "11:00",
+                "items": [
+                    {
+                        "id": null,
+                        "title": "Contenuto in fase di conferma",
+                        "description": "",
+                        "color": "#FF0000",
+                        "location": "Track 1 (BAROZZI)",
+                        "presenters": "",
+                        "tags": ""
+                    },
+                    {
+                        "id": null,
+                        "title": "La progettazione accessibile: dall'Adattamento all'Innovazione Inclusiva.",
+                        "description": "Contenuto da definire",
+                        "color": "#00FF00",
+                        "location": "Track 2 (TRANI)",
+                        "presenters": "Alfredo Politano (FROG)",
+                        "tags": null
+                    },
+                    {
+                        "id": 1103,
+                        "title": "Orizzonti multimediali",
+                        "description": "Una vetrina di novità e informazioni sulle tecnologie che migliorano la nostra vita indipendente che prende spunto dalla rubrica radiofonica di INVT, ORIZZONTI MULTIMEDIALI che questa volta vede protagonisti anche voi.",
+                        "color": "#0000FF",
+                        "location": "Track 3 (STOPPANI)",
+                        "presenters": "Marino Attini (Componente della direzione nazionale @ UICI; Componente nel consiglio di amministrazione @ INVAT), Franco Lisi (Direttore scientifico @ Istituto dei ciechi di Milano; Direttore @ INVAT), Sabato Derosa (Componente del Cda @ INVAT), Rocco Clementelli (Esperto di domotica; Componente del gruppo di lavoro @ Quattro vita indipendente; Consulente @ INVAT)",
+                        "tags": "accessibilità, innovazione, tecnologia, uici, invat, domotica, orizzonti multimediali"
+                    }
+                ]
+            },
+            {
+                "start": "12:00",
+                "items": [
+                    {
+                        "id": null,
+                        "title": "Contenuto in fase di conferma",
+                        "description": "",
+                        "color": "#FF0000",
+                        "location": "Track 1 (BAROZZI)",
+                        "presenters": "",
+                        "tags": ""
+                    },
+                    {
+                        "id": 1110,
+                        "title": "Creare un percorso conforme e sostenibile economicamente per portare l'accessibilità nelle PMI",
+                        "description": "Sperimentare personalmente l’accessibilità garantisce il coinvolgimento e la motivazione di un team. Da qui partiamo per fare un percorso di successo di accessibilità digitale con le PMI (Piccole Medie Imprese) e le Agenzie nostre partner. Durante questo incontro inizieremo con il farvi provare cosa significa navigare con ausili di accessibilità e sperimentare cosa significa accedere al web con forti ipovisioni, procederemo poi nel condividere con voi i nostri casi di successo di aziende, organizzazioni e PMI che si sono già impegnate nel percorso dell’accessibilità in funzione della nuova normativa European Accessibility Act. Risultati ottenuti mediante assessment eseguiti da esperti che utilizzano tecnologie assistive senza l’impiego di automatismi spesso in economie di scala estremamente sostenibili e perfettamente compliance con la normativa.\nArgomenti: Siti accessibili, Dichiarazione di accessibilità, Documenti accessibili, Formazione aziendale, Contenuti inclusivi, Report&repair",
+                        "color": "#00FF00",
+                        "location": "Track 2 (TRANI)",
+                        "presenters": "Donato Matturro (Ceo e fondatore @ SitiAccessibili, Digital pioneer esperto di Marketing digitale e design accessibile), Cristian Bernareggi (Esperto senior di accessibilità digitale @ SitiAccessibili), Mattia Ducci (Sviluppatore web e mobile esperto di accessibilità digitale @ SitiAccessibili)",
+                        "tags": "wcag, european accessibility act, pmi, normativa, tecnologie assistive"
+                    },
+                    {
+                        "id": 1072,
+                        "title": "Accessibilità comunicativa. Condividere le competenze",
+                        "description": "L’accesso alla comunicazione è un diritto fondamentale, indispensabile in ogni interazione sociale: attraverso la comunicazione si condividono valori, informazioni, cultura ed emozioni.\nLa comunicazione può tuttavia incontrare ostacoli che impediscono all’utente di ricevere il messaggio. Nel caso della comunicazione tali ostacoli sono essenzialmente barriere percettive, viene cioè ad essere impedita la visione o l’ascolto dei contenuti, per evitare ciò occorrono comunicazioni adeguatamente progettate. In che modo? Coerentemente con le linee guida definite dall’European Accessibility Act (2019), progettare comunicazioni accessibili significa offrire messaggi che, nelle loro forme e nei media utilizzati (digitali o materici, uditivi, visivi, audiovisivi), questi siano comunque fruibili con più modalità sensoriali.\nIl contributo offre strumenti e competenze emerse dalla collaborazione triennale tra RAI Pubblica Utilità /Accessibilità e il Dipartimento di Design del Politecnico di Milano.",
+                        "color": "#0000FF",
+                        "location": "Track 3 (STOPPANI)",
+                        "presenters": "Dina Riccò (Professore Associato @ Politecnico di Milano), Maria Chiara Andriello (Responsabile Accessibilità @ Rai Pubblica Utilità)",
+                        "tags": ""
+                    }
+                ]
+            },
+            {
+                "start": "13:00",
+                "items": [
+                    {
+                        "id": null,
+                        "title": "Pausa Pranzo",
+                        "description": "",
+                        "color": "#FFFFFF",
+                        "location": "Area Pranzo / Coffee Break",
+                        "presenters": null,
+                        "tags": null
+                    }
+                ]
+            },
+            {
+                "start": "14:15",
+                "items": [
+                    {
+                        "id": null,
+                        "title": "Design system .italia: la responsabilità di progettare interfacce pubbliche continua",
+                        "description": "",
+                        "color": "#FF0000",
+                        "location": "Track 1 (BAROZZI)",
+                        "presenters": "",
+                        "tags": ""
+                    },
+                    {
+                        "id": null,
+                        "title": "BeyonDoc",
+                        "description": "",
+                        "color": "#00FF00",
+                        "location": "Track 2 (TRANI)",
+                        "presenters": "",
+                        "tags": ""
+                    },
+                    {
+                        "id": 1100,
+                        "title": "Mobilità e orientamento: sperimentazione di sistemi di localizzazione inclusivi",
+                        "description": "La mobilità e l'orientamento per persone con disabilità visive costituiscono sfide rilevanti.CNR e Università Sapienza hanno promosso una sperimentazione per soluzioni innovative.L’usabilità delle mappe digitali, essenziali per la navigazione e fondamentali per creare mappe mentali di navigazione è spesso compromessa per gli utenti di tecnologie assistive, specie su piccoli schermi touch.Saranno trattati: la necessità di sistemi di localizzazione e posizionamento inclusivi per un'ampia gamma di utenti; il ruolo dell’esperienza dell’utente con il dispositivo; la necessità di sistemi robusti e affidabili.Nella progettazione dell’interfaccia utente e nella caratterizzazione del sistema, sicurezza, robustezza e usabilità devono allinearsi con accettazione degli utenti, attenzione ai costi e semplicità. Identificheremo i requisiti chiave per la progettazione e proporremo un possibile sviluppo di servizi innovativi per colmare il divario tra capacità tecnologiche e usabilità pratica.",
+                        "color": "#0000FF",
+                        "location": "Track 3 (STOPPANI)",
+                        "presenters": "Gianluca Sotis (Resposnabile processi di inserimento delle persone con disabilità @ CNR), Paolo Borsocchi (Ricercatore @ Istituto di Scienza e Tecnologie dell'informazione - CNR), Antonino Crivello (Ricercatore @ Istituto di Scienza e Tecnologie dell'informazione del CNR), Luca De Nardis (Professore @ Università la Sapienza di Roma), Alessandro Lambiase (Professore di I fascia MEDS/17° @ Dipartimento Organi di Senso - \"Sapienza\" Università di Roma)",
+                        "tags": ""
+                    }
+                ]
+            },
+            {
+                "start": "15:15",
+                "items": [
+                    {
+                        "id": null,
+                        "title": "Nuova norma tecnica EN 301 549: attenzione, spoiler!",
+                        "description": "EN 301 549: una sigla che da anni campeggia per l'accessibilità a livello europeo. Questa norma è in fase di aggiornamento per diventare il pilastro di riferimento per l'European Accessibilty Act. In questa sessione, direttamente dal gruppo di lavoro che sta finendo la norma, sarà fornito uno 'spoiler' di cosa ci aspetterà.",
+                        "color": "#FF0000",
+                        "location": "Track 1 (BAROZZI)",
+                        "presenters": "Roberto Scano (Esperto di Accessibilità)",
+                        "tags": ""
+                    },
+                    {
+                        "id": null,
+                        "title": "",
+                        "description": "",
+                        "color": "#00FF00",
+                        "location": "Track 2 (TRANI)",
+                        "presenters": "",
+                        "tags": ""
+                    },
+                    {
+                        "id": 1101,
+                        "title": "Formare un esperto di accessibilità",
+                        "description": "L’esperto di accessibilità ha una competenza multiforme. E’ un tecnico capace di utilizzare le tecnologie assistive e i tool di verifica, ma anche con nozioni di base sul codice HTML. E’ capace di comprendere le norme e ha doti espositive scritte e verbali per farsi capire da chiunque, anche grazie all’utilizzo di un linguaggio inclusivo. Soprattutto è una persona capace di entrare in sintonia con gli altri.\nDa vent’anni Sogei forma esperti di accessibilità, impegnandoli in un percorso che li accompagna durante la vita professionale. Certificazione interna, acquisizione di crediti formativi, esperienza sul campo, aggiornamento continuo, organizzazione di convegni: tutto con un’attenzione alla Customer Experience che è il faro di chi si occupa di accessibilità. La CX spesso è lasciata alla buona volontà di chi sviluppa software; invece è sempre necessario porre le persone al centro, ancor più se utilizzano tecnologie assistive. L’accessibilità, a quel punto, è solo una conseguenza.",
+                        "color": "#0000FF",
+                        "location": "Track 3 (STOPPANI)",
+                        "presenters": "Marco Bove (Accessibility & Usability Expert @ Sogei - Accessibilità e Esperienza Utente), Enrico Tanzi (Accessibility & design system expert @ Sogei - Accessibilità e Esperienza Utente)",
+                        "tags": ""
+                    }
+                ]
+            },
+            {
+                "start": "16:00",
+                "items": [
+                    {
+                        "id": null,
+                        "title": "Coffee Break",
+                        "description": "",
+                        "color": "#FFFFFF",
+                        "location": "Area Pranzo / Coffee Break",
+                        "presenters": null,
+                        "tags": null
+                    }
+                ]
+            },
+            {
+                "start": "16:30",
+                "items": [
+                    {
+                        "id": 1062,
+                        "title": "Innovare con l’accessibilità: esperienze dal mondo bancario e dalla Pubblica Amministrazione",
+                        "description": "L’accessibilità non è solo una questione tecnica o normativa: è una leva progettuale per innovare, migliorare la user experience e generare valore per persone e organizzazioni. Attraverso la metafora del “Warp & Weft” (ordito e trama), questo talk esplora come accessibilità e usabilità, intrecciate, possano creare esperienze digitali più semplici, intuitive e inclusive, riducendo il debito tecnico del design e ottimizzando risorse.\nPartendo da due esperienze concrete – il miglioramento del Catalogo dei Servizi della Provincia Autonoma di Trento e il lavoro sull’accessibilità dei servizi digitali di Sparkasse, attraverso expert review e test con utenti reali – mostreremo come l’accessibilità possa guidare l’innovazione in settori complessi come la Pubblica Amministrazione e il mondo bancario.\nIl talk offrirà insight su come la semplificazione del design, la progettazione per l’uguaglianza e un approccio iterativo possano favorire la trasformazione digitale e generare valore sostenibile.",
+                        "color": "#FF0000",
+                        "location": "Track 1 (BAROZZI)",
+                        "presenters": "Claudio Guerra (Marketing & Communication Manager @ Tangible)",
+                        "tags": ""
+                    },
+                    {
+                        "id": 1104,
+                        "title": "Accessibilità in PagoPA S.p.A.: tra design, contenuti e sviluppo",
+                        "description": "L’accessibilità nei prodotti digitali non è un obiettivo da raggiungere una volta per tutte, ma un processo continuo che richiede metodo, collaborazione e strumenti adeguati.\nIn PagoPA S.p.A. stiamo costruendo un approccio per integrare l’accessibilità by design, by default, by team, toccando diversi ambiti:\n- Il Design System, progettato per un’esperienza fluida su device meno performanti e supporto alle tecnologie assistive\n- L’uso di linguaggio \"ampio\" e contenuti accessibili\n- Un sistema di segnalazioni di accessibilità, gestito in collaborazione con il team legal, per raccogliere feedback reali\n- Il coinvolgimento attivo dei team di sviluppo, con formazione e iniziative dedicate.\nCondivideremo il nostro percorso, dalle integrazioni iniziali nel Design System al lavoro con fornitori per audit, remediation e test con utenti reali. Racconteremo anche le sfide aperte: la formazione, l’accessibilità come  processo proattivo e l'individuazione di focal point aziendali.",
+                        "color": "#00FF00",
+                        "location": "Track 2 (TRANI)",
+                        "presenters": "Daniela Iozzo (Content design lead @ PagoPA), Arianna Menini (User Interface design leader @ PagoPA), Damiano Plebani (Senior Design Engineer @ PagoPA), Cristiano Tofani (Senior Mobile Software Engineer @ PagoPA)",
+                        "tags": ""
+                    },
+                    {
+                        "id": 1081,
+                        "title": "Se i contratti sono accessibili, chiunque ci guadagna.",
+                        "description": "Convincere le aziende a rendere accessibili i contratti che fanno firmare ai loro clienti è spesso una impresa ardua. Eppure, al di là degli obblighi imposti da una norma, curare forma e sostanza dei documenti legali non solo rende la vita più facile a chi li legge ma ha molti vantaggi anche per chi li scrive. Lo vedremo seguendo un filo rosso che lega accessibilità, sostenibilità e intelligenza artificiale.",
+                        "color": "#0000FF",
+                        "location": "Track 3 (STOPPANI)",
+                        "presenters": "Giorgio Trono (Avvocato)",
+                        "tags": ""
+                    }
+                ]
+            },
+            {
+                "start": "17:30",
+                "items": [
+                    {
+                        "id": 1080,
+                        "title": "Dalla conformità all'accessibilità",
+                        "description": "Si parla spesso di \"livello di conformità\" dell’accessibilità di siti web e app, anche perché la legge ne impone la dichiarazione. Ma quanto è davvero utile questo \"indicatore\"? Un sistema semplice ma inaccessibile, paradossalmente, può violare meno criteri WCAG rispetto a uno più complesso e ben progettato.\nIn questa sessione spiegheremo perché non è sufficiente contare le violazioni e come ripensare gli indicatori di conformità affinché riflettano meglio l’impatto reale sulle persone. Esploreremo strategie per aiutare le organizzazioni a garantire non solo la compliance normativa, ma soprattutto un’esperienza accessibile e inclusiva per tutti.",
+                        "color": "#FF0000",
+                        "location": "Track 1 (BAROZZI)",
+                        "presenters": "Simon Mastrangelo (CEO @ Ergoproject)",
+                        "tags": ""
+                    },
+                    {
+                        "id": 1090,
+                        "title": "Interpreti LIS 2.0: qualità dei servizi in presenza e da remoto.",
+                        "description": "Sfide e opportunità nell’età post-covid: dall’interpretariato esclusivamente in presenza alle nuove forme ibride di servizio. Nuovi scenari e opportunità per garantire standard elevati per accessibilità di qualità.",
+                        "color": "#00FF00",
+                        "location": "Track 2 (TRANI)",
+                        "presenters": "Maria Dellino (Vicepresidente @ Anios - Associazione interpreti di Lingua dei Segni italiana), Manuela Izzo (Segretario nazionale @ Anios - Associazione interpreti di lingua dei segni italiana)",
+                        "tags": ""
+                    },
+                    {
+                        "id": 1086,
+                        "title": "E se scegliessimo l'accessibilità piuttosto che la bellezza? La mia storia con l'epilessia",
+                        "description": "Le persone sanno davvero cosa significa vivere con l'epilessia? O pensano che si tratti solo di crisi epilettiche e perdita di coscienza? Mi pongo questa domanda dal 2008, quando mi è stata diagnosticata l'epilessia. Che cosa significa davvero navigare in internet con questa patologia? Non si tratta solo di crisi epilettiche, ma anche di occhi che si muovono su e giù, spossatezza e mal di testa. Spesso ho lottato per trovare informazioni sui siti web cercando di evitare banner lampeggianti o elementi a basso contrasto. Essere una comunità significa anche pensare all'accessibilità da una prospettiva umana, ascoltando le esigenze delle persone con malattie croniche. Significa rendersi conto che è giunto il momento di dare priorità a un sito web navigabile piuttosto che a uno bello. Attraverso la mia storia, condividerò le informazioni più elementari sulla progettazione per le persone con epilessia, partendo da un principio chiave: ascoltare le loro storie.",
+                        "color": "#0000FF",
+                        "location": "Track 3 (STOPPANI)",
+                        "presenters": "Virginia Ciambriello (Consulente accessibilità e DE&I, copywriter)",
+                        "tags": ""
+                    }
+                ]
+            },
+            {
+                "start": "18:30",
+                "items": [
+                    {
+                        "id": 1111,
+                        "title": "Tavola rotonda sullo sviluppo accessibile",
+                        "description": "La tavola rotonda \"Sviluppo accessibile\" riunirà esperti di accessibilità per un confronto approfondito sullo stato attuale delle strategie di sviluppo accessibile per applicazioni mobile e desktop. Durante l'evento, i partecipanti esploreranno le sfide e le opportunità legate alla creazione di software inclusivo, discutendo delle migliori pratiche, degli strumenti e delle tecnologie emergenti. Saranno analizzati i progressi compiuti nel settore, con un focus sulle soluzioni innovative che mirano a migliorare l'esperienza utente per persone con disabilità. L'obiettivo è quello di promuovere un dialogo costruttivo e di identificare strategie concrete per rendere l'accessibilità una componente fondamentale dello sviluppo",
+                        "color": "#FF0000",
+                        "location": "Track 1 (BAROZZI)",
+                        "presenters": "Fabrizio Caccavello (Responsabile webaccessibile.org @ Accessibility Days - IWA), Sauro Cesaretti (Presidente @ Accessibility Days), Enrico Tanzi (UI developer), Diana Bernabei (Accessibility Engineer @ Inclusio), Michele D'Amico (Full Stack DevelOperator), Simone Dosoli (Web Accessibility Expert e Developer)",
+                        "tags": ""
+                    },
+                    {
+                        "id": 1105,
+                        "title": "Libri scolastici accessibili: ripartiamo da zero!",
+                        "description": "I programmi ci mettono a disposizione tanti strumenti potentissimi per realizzare documenti digitali accessibili, ci sono persone competenti in grado di utilizzarli, ma dietro a tutto questo ci deve essere la volontà e la sensibilità di voler affrontare e raggiungere l’obiettivo: realizzare contenuti comprensibili a chiunque. Il termine “chiunque” è la chiave per l’inclusione, ma c’è la consapevolezza di questo? È possibile farlo con un’unica soluzione? Facciamo due parole su questo argomento spinoso e uniamo le forze per arrivare al traguardo insieme!",
+                        "color": "#00FF00",
+                        "location": "Track 2 (TRANI)",
+                        "presenters": "Michela Di Stefano (Studio 361° di Michela Di Stefano)",
+                        "tags": ""
+                    },
+                    {
+                        "id": 1070,
+                        "title": "INPS: Semplificazione e Accessibilità per un Pubblico Più Ampio",
+                        "description": "Negli ultimi anni, INPS ha intrapreso un percorso di profonda trasformazione per garantire servizi digitali sempre più semplici, accessibili e inclusivi.\nDurante l’intervento, esploreremo le iniziative chiave che hanno reso possibile questo cambiamento:\n- Test obbligatori prima del rilascio: ogni nuovo servizio digitale viene sottoposto a test di usabilità e accessibilità, coinvolgendo direttamente gli utenti per identificare e risolvere criticità prima della pubblicazione.\n- Design System Sirio: un sistema di progettazione che ha uniformato le interfacce e i processi di interazione, rendendo tutti i servizi più intuitivi e coerenti.\n- Semplificazione del linguaggio: grazie all’adozione di linee guida specifiche, i testi delle comunicazioni e dei servizi digitali sono stati riscritti per migliorarne la leggibilità.\nUn approccio che unisce metodologia, tecnologia e attenzione all’utente per migliorare concretamente l’esperienza di milioni di cittadini.",
+                        "color": "#0000FF",
+                        "location": "Track 3 (STOPPANI)",
+                        "presenters": "Emanuele Colini (Head of Agile Enablement & Delivery @ INPS), Giacomo Grassi (Head of UX & Digital Processes @ INPS)",
+                        "tags": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2025-05-15",
+        "label": "Workshop del giovedì (15 Maggio 2025)",
+        "events": [
+            {
+                "start": "08:30",
+                "items": [
+                    {
+                        "id": null,
+                        "title": "Ingresso dei partecipanti e apertura degli spazi espositivi",
+                        "description": null,
+                        "color": "#FFFFFF",
+                        "location": "Reception",
+                        "presenters": null,
+                        "tags": null
+                    }
+                ]
+            },
+            {
+                "start": "11:00",
+                "items": [
+                    {
+                        "id": 1069,
+                        "title": "Dimostrazione di BUDD-e, un robot autonomo per l’accessibilità di ciechi/ipovedenti.",
+                        "description": "La presenza di barriere all’accessibilità per persone cieche e ipovedenti in svariati contesti evidenzia la necessità di fornire soluzioni innovative che possano garantire assistenza alle persone ipovedenti e possano contribuire a semplificare il ruolo dei caregiver. BUDD-e è un primo prototipo di guida robotica autonoma progettata per guidare persone cieche e ipovedenti in modo sicuro ed efficace in ambienti complessi. \nQuesto lavoro è svolto, in stretta collaborazione con la Fondazione Istituto dei Ciechi di Milano, nell'ambito del progetto BUDD-e finanziato dal Politecnico di Milano (in particolare dal Polisocial Award 2021, l'iniziativa del Politecnico di Milano per sostenere progetti di ricerca incentrati sull'impegno sociale) e dal progetto italiano MUR PRIN 2022 “Control of Assistive Robots in crowded Environments” (CARE). \nIn questa dimostrazione, i partecipanti avranno l'opportunità di testare questa tecnologia in prima persona.",
+                        "color": "#00FFFF",
+                        "location": "Workshop 1 (Aula Mostre)",
+                        "presenters": "Marcello Farina (Professore Associato @ Politecnico di Milano)",
+                        "tags": ""
+                    },
+                    {
+                        "id": 1035,
+                        "title": "Content Design accessibile: dalla struttura alla comprensione",
+                        "description": "Frasi e parole chiare sono sufficienti per avere contenuti davvero accessibili? Nelle linee guida WCAG abbiamo indicazioni approfondite per lessico e sintassi, ma non altrettanto per l’organizzazione del testo: eppure è un ambito cruciale per la scrittura accessibile, in special modo per persone con disturbi cognitivi.\nQuesto workshop esplora l'intersezione tra content design e accessibilità cognitiva, un ambito poco approfondito ma fondamentale per una scrittura davvero inclusiva. Attraverso esempi ed esercitazioni, chi partecipa apprenderà come progettare architetture informative che si adattino a diversi modelli mentali e modalità di elaborazione delle informazioni, tecniche di chunking e layering dei contenuti per migliorare la comprensibilità, strategie di progressive disclosure per gestire la complessità. L'obiettivo è fornire strumenti per creare contenuti che non solo rispettino le linee guida, ma siano davvero fruibili da tutti, indipendentemente dagli stili  cognitivi.",
+                        "color": "#FF00FF",
+                        "location": "Workshop 2 (Aula Mac)",
+                        "presenters": "Letizia Sechi (Content Designer @ Freelance), Luca Rosati (Architetto dell'informazione @ Consulente indipendente)",
+                        "tags": ""
+                    },
+                    {
+                        "id": null,
+                        "title": "",
+                        "description": "",
+                        "color": "#00FFFF",
+                        "location": "Workshop 3 (Tocca e Impara)",
+                        "presenters": "",
+                        "tags": ""
+                    },
+                    {
+                        "id": 1102,
+                        "title": "Monitoraggio e gestione della conformità nell’accessibilità digitale tramite una piattaforma SaaS",
+                        "description": "Garantire l’accessibilità digitale e la conformità normativa è essenziale per le organizzazioni pubbliche e private. In questo workshop, scoprirai come inSuit Compliance™, integrato con Siteimprove, facilita l’audit, il monitoraggio e la gestione della conformità normativa in materia di accessibilità digitale a livello nazionale e internazionale.\n\n- inSuit Compliance™ automatizza report, avvisi e audit per garantire il rispetto della legge Stanca e della EAA (European Accessibility Act).\n- Siteimprove identifica problemi di accessibilità e aiuta a ottimizzare i siti web.\n\nImparerai a implementare strategie di monitoraggio, generare report automatici e ottimizzare gli audit senza compromettere l’operatività del tuo sito web.",
+                        "color": "#FF00FF",
+                        "location": "Workshop 4 (Lab Informatica)",
+                        "presenters": "Irene Polo (Senior Sales Consultant @ Tech4access), Alex Haidar (International Compliance Specialist @ Tech4access)",
+                        "tags": ""
+                    }
+                ]
+            },
+            {
+                "start": "12:45",
+                "items": [
+                    {
+                        "id": null,
+                        "title": "Pausa Pranzo",
+                        "description": "",
+                        "color": "#FFFFFF",
+                        "location": "Area Pranzo / Coffee Break",
+                        "presenters": "",
+                        "tags": ""
+                    }
+                ]
+            },
+            {
+                "start": "14:15",
+                "items": [
+                    {
+                        "id": 1068,
+                        "title": "Accessibilità by Design: Si può sfruttare l’AI per una progettazione accessibile?",
+                        "description": "Il workshop si prefigge l'obbiettivo di identificare o concepire strumenti che sfruttano l'intelligenza artificiale per migliorare il processo di progettazione di un touchpoint digitale includendo fin da subito i principi di accessibilità. I partecipanti verranno suddivisi in gruppi che valuteranno differenti tecniche di progettazione con lo scopo di capire se gli strumenti attualmente disponibili sono utili o sarebbe necessaria un integrazione. Esempio: Ad un gruppo viene chiesto di valutare le User Journey e dovrà capire se strumenti di AI come ChatGpt, Contentsquare AI etc possano essere usati utilmente. Si vuole coinvolgere differenti figure professionali, Service designer, UX, UI, Sviluppo front-ent, Data Analyst etc per poter avere suggerimenti di differente natura. Il workshop vuole essere una condivisione generativa di idee e scoperte, tutti i risultati verranno condivisi alla fine dai vari gruppi.",
+                        "color": "#00FFFF",
+                        "location": "Workshop 1 (Aula Mostre)",
+                        "presenters": "Simone Fiorini (Experience Designer), Valentina Marana (UX Designer)",
+                        "tags": ""
+                    },
+                    {
+                        "id": null,
+                        "title": "",
+                        "description": "",
+                        "color": "#FF00FF",
+                        "location": "Workshop 2 (Aula Mac)",
+                        "presenters": "",
+                        "tags": ""
+                    },
+                    {
+                        "id": 1017,
+                        "title": "ControSenso/2025Evento per l’accessibilità alle esperienze museali",
+                        "description": "Un’esposizione e un workshop sul tema della comunicazione accessibile alle esperienze museali.\nPrevede una breve presentazione degli autori dei progetti a cui segue una fase di coinvolgimento attivo dei partecipanti nella fruizione sensoriale dei progetti esposti. Nell’esposizione sono presenti materiali esplorabili tattilmente, visivamente e/o uditivamente, materici e digitali. È prevista inoltre una sezione di test di fruibilità.\nIl progetto è realizzato dai docenti (proff. Dina Riccò e Gian Luca Balzerano), collaboratori (A. Zamperini, G. Martimucci, A. Barone, L. Maffei) e studenti del “Laboratorio di progettazione di artefatti e sistemi complessi”, del Corso di laurea magistrale in Design della comunicazione, Scuola del Design, Politecnico di Milano, A.A. 2024/25.",
+                        "color": "#00FFFF",
+                        "location": "Workshop 3 (Tocca e Impara)",
+                        "presenters": "Dina Riccò (Professore Associato @ Politecnico di Milano), Gian Luca Balzerano (Docente incaricato @ Politecnico di Milano)",
+                        "tags": ""
+                    },
+                    {
+                        "id": null,
+                        "title": "",
+                        "description": "",
+                        "color": "#FF00FF",
+                        "location": "Workshop 4 (Lab Informatica)",
+                        "presenters": "",
+                        "tags": ""
+                    }
+                ]
+            },
+            {
+                "start": "16:30",
+                "items": [
+                    {
+                        "id": null,
+                        "title": "Creare Esperienze Digitali Inclusive: Workshop sull'Accessibilità Web e Mobile",
+                        "description": "Questo workshop intensivo riunisce esperti di sviluppo web e mobile per esplorare le frontiere dell'accessibilità digitale. Attraverso sessioni interattive e discussioni approfondite, i partecipanti affronteranno le sfide più urgenti, condivideranno soluzioni innovative e analizzeranno i rischi associati alla creazione di esperienze digitali inclusive. L'obiettivo è fornire strumenti pratici e conoscenze avanzate per lo sviluppo di applicazioni web e mobile.",
+                        "color": "#00FFFF",
+                        "location": "Workshop 1 (Aula Mostre)",
+                        "presenters": "",
+                        "tags": ""
+                    },
+                    {
+                        "id": 1079,
+                        "title": "Touch the sky. Un planetario multisensoriale per scoprire l’universo",
+                        "description": "Il planetario multisensoriale ha lo scopo di offrire un quadro percettivo e cognitivo comune a tutti gli utenti, vedenti, sordi, ciechi o ipovedenti, per quanto riguarda l'esperienza di osservazione del cielo\nIl planetario è costituito da una semisfera di plexiglass su cui le stelle sono rappresentate da barre metalliche che, quando toccate, attivano stimoli visivi, tattili e acustici. In questo modo abbiamo mappato la luminosità apparente, la caratteristica più comunemente utilizzata nell'osservazione del cielo, sia su stimoli acustici (suoni a volumi diversi), visivi (LED a diversa luminosità) e tattili. La distanza delle stelle da Terra è mappata mediante una vibrazione, più veloce/lenta per distanze più piccole/grandi\nIl workshop ha lo scopo di mostrare le potenzialità di questo strumento aprendo nuove prospettive per un'educazione scientifica inclusiva, offrendo a tutte le persone, indipendentemente dalle capacità sensoriali, l'opportunità di comprendere l’Universo che ci circonda",
+                        "color": "#FF00FF",
+                        "location": "Workshop 2 (Aula Mac)",
+                        "presenters": "Federico Di Giacomo (Tecnologo @ INAF - Istituto Nazionale di Astrofisica), Stefania Varano (Primo Tecnologo @ INAF - Istituto Nazionale di Astrofisica), Rachele Toniolo (Dottoranda @ Dipartimento di Fisica e Astronomia dell'Università di Bologna e INAF - Istituto Nazionale di Astrofisica)",
+                        "tags": ""
+                    },
+                    {
+                        "id": 1063,
+                        "title": "Neurodiversity at Work: pratiche e strumenti di counselling per valorizzare le soft skills",
+                        "description": "Sfidando lo stereotipo che le persone neurodivergenti manchino di competenze cruciali come la comunicazione, la gestione del tempo, la collaborazione, la leadership e la risoluzione dei problemi, questo workshop offre strumenti pratici e approcci concreti per valorizzare le soft skills nel contesto lavorativo,  Utilizzando tecniche di orientamento e counselling, il workshop mira a mostrare come queste competenze possano essere identificate, riconosciute e valorizzate, guardando alla persona nel suo insieme, e non semplicemente alla condizione di neurodivergenza. Con i/le partecipanti esploreremo metodologie interattive, che integrano strumenti digitali e risorse utili a creare ambienti di lavoro inclusivi. L’obiettivo è garantire che ogni individuo possa esprimere il proprio potenziale, contribuendo al successo dell’organizzazione.",
+                        "color": "#00FFFF",
+                        "location": "Workshop 3 (Tocca e Impara)",
+                        "presenters": "Chiara Marchetta (Coordinator of EU Projects Office, Quality Assurance Expert @ FORMA.azione srl), Sylvia Liuti (Director of Internationalisation, Quality Assurance and Gender Equality expert @ FORMA.Azione srl), Elio Benvenuti (Dyslexic Advocate, Diversity & Disability Manager), Sara Bocchicchio (Neuronclusion Strategist @ AnotherWayTo)",
+                        "tags": ""
+                    },
+                    {
+                        "id": null,
+                        "title": "",
+                        "description": "",
+                        "color": "#FF00FF",
+                        "location": "Workshop 4 (Lab Informatica)",
+                        "presenters": "",
+                        "tags": ""
+                    }
+                ]
+            },
+            {
+                "start": "18:00",
+                "items": [
+                    {
+                        "id": null,
+                        "title": "",
+                        "description": "",
+                        "color": "#00FFFF",
+                        "location": "Workshop 1 (Aula Mostre)",
+                        "presenters": "",
+                        "tags": ""
+                    },
+                    {
+                        "id": null,
+                        "title": "",
+                        "description": "",
+                        "color": "#FF00FF",
+                        "location": "Workshop 2 (Aula Mac)",
+                        "presenters": "",
+                        "tags": ""
+                    },
+                    {
+                        "id": null,
+                        "title": "",
+                        "description": "",
+                        "color": "#00FFFF",
+                        "location": "Workshop 3 (Tocca e Impara)",
+                        "presenters": "",
+                        "tags": ""
+                    },
+                    {
+                        "id": null,
+                        "title": "",
+                        "description": "",
+                        "color": "#FF00FF",
+                        "location": "Workshop 4 (Lab Informatica)",
+                        "presenters": "",
+                        "tags": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2025-05-16",
+        "label": "Sessioni del venerdì (16 Maggio 2025)",
+        "events": [
+            {
+                "start": "09:00",
+                "items": [
+                    {
+                        "id": null,
+                        "title": "Benvenuto & Keynote",
+                        "description": "",
+                        "color": "#FFFFFF",
+                        "location": "Track 1 (BAROZZI)",
+                        "presenters": "",
+                        "tags": ""
+                    }
+                ]
+            },
+            {
+                "start": "09:30",
+                "items": [
+                    {
+                        "id": null,
+                        "title": "",
+                        "description": "",
+                        "color": "#FFFFFF",
+                        "location": "Reception",
+                        "presenters": "",
+                        "tags": ""
+                    }
+                ]
+            },
+            {
+                "start": "10:30",
+                "items": [
+                    {
+                        "id": 1108,
+                        "title": "Un Codice Etico per l'Accessibilità",
+                        "description": "Un codice etico è sia un insieme di principi , sia una leva strategica che può orientare le aziende verso un futuro più inclusivo e responsabile. In questa sessione esploreremo il ruolo di un codice etico, la sua funzione per un’organizzazione e l’importanza d’integrare al suo interno i valori dell’accessibilità e dell'inclusione.",
+                        "color": "#FF0000",
+                        "location": "Track 1 (BAROZZI)",
+                        "presenters": "Alberto Mingione (Disability & Diversity Manager), Mattia Caprioni (Avvocato), Francesca Sbianchi (Vicepresidente @ Accessibility Days), Sauro Cesaretti (Presidente @ Accessibility Days)",
+                        "tags": ""
+                    },
+                    {
+                        "id": 1109,
+                        "title": "Yeah per le imprese: approcci, progetti e casi concreti",
+                        "description": "Con l’entrata in vigore dei nuovi obblighi in materia di accessibilità digitale, molte aziende si trovano strette fra la necessità di adeguarsi in tempi brevi alla normativa e l’assenza di competenze interne e di budget dedicato. Ma come fare? C’è molta confusione sulla normativa, e sul mercato sono presenti diverse soluzioni, spesso inadeguate. Quale approccio seguire?  \nIn questo talk, presenteremo alcuni progetti particolarmente significativi che abbiamo realizzato assieme a  grandi e piccole aziende che hanno intrapreso un percorso di concreto miglioramento dell’accessibilità digitale. Filo rosso di queste progettualità sono: \n1) Guardare all’accessibilità non solo come adempimento formale, ma come opportunità e asset strategico \n2) Coinvolgere utenti con disabilità nelle attività di test \n3) Acquisire know-how e competenze interne sul tema \n4) Inserire l’accessibilità come requisito in tutti i tavoli aziendali. \nGrazie a questo approccio, sono stati raggiunti importanti risultati.",
+                        "color": "#00FF00",
+                        "location": "Track 2 (TRANI)",
+                        "presenters": "Marco Andreoli (PhD, Co-fondatore @ Yeah Impresa Sociale), Fabio Lotti (Co-fondatore @ Yeah Impresa Sociale, Web Accessibility Expert), Clara Meattini (Web Accessibility Expert @ Yeah Impresa Sociale)",
+                        "tags": ""
+                    },
+                    {
+                        "id": null,
+                        "title": "Contenuto in fase di conferma",
+                        "description": "",
+                        "color": "#0000FF",
+                        "location": "Track 3 (STOPPANI)",
+                        "presenters": "",
+                        "tags": ""
+                    }
+                ]
+            },
+            {
+                "start": "11:30",
+                "items": [
+                    {
+                        "id": null,
+                        "title": "Contenuto in fase di conferma",
+                        "description": "",
+                        "color": "#FF0000",
+                        "location": "Track 1 (BAROZZI)",
+                        "presenters": "",
+                        "tags": ""
+                    },
+                    {
+                        "id": 1047,
+                        "title": "Accessibility Quality Assurance: L’Approccio di Concept Reply per Esperienze Inclusive",
+                        "description": "L’Accessibility Quality Assurance secondo Concept Reply garantisce inclusività e conformità alle normative, integrando test automatici, manuali e utenti reali per identificare e risolvere le barriere digitali. L’approccio coinvolge esperti e tecnologie avanzate, come l’Intelligenza Artificiale Generativa, per migliorare l’accessibilità di siti web, app mobili e documenti PDF. Attraverso audit regolari, formazione continua e una cultura aziendale incentrata sull’inclusività, Concept Reply promuove esperienze digitali senza barriere, contribuendo a un vantaggio competitivo per le aziende.",
+                        "color": "#00FF00",
+                        "location": "Track 2 (TRANI)",
+                        "presenters": "Sara Lanzone (Accessibility Expert & Test Engineer), Manoj Rollo (Test Automation Engineer)",
+                        "tags": ""
+                    },
+                    {
+                        "id": 1092,
+                        "title": "Un sito accessibile in WordPress... con un Page Builder: si può fare?",
+                        "description": "WordPress è la piattaforma più diffusa per la creazione di siti web, grazie anche alla facilità con cui permette di creare pagine accattivanti. Alla base dell'aspetto di un sito web c'è un tema, ma spesso si utilizza anche un Page Builder, un plugin che (letteralmente) permette di costruire le pagine in modo semplice e rapido.\nMa... attenzione: la scelta del Page Builder ha un impatto cruciale sull'accessibilità, dal momento che questo definisce non solo l'aspetto visivo, ma anche il codice del proprio sito web. Ecco perché, con il Page Builder \"sbagliato\", rendere il proprio sito web accessibile può diventare una sfida enorme.\nIn questa sessione, analizzeremo alcuni tra i Page Builder più diffusi, scopriremo quali sono i migliori e perché, e quali invece richiedono \"rattoppi\" complessi.",
+                        "color": "#0000FF",
+                        "location": "Track 3 (STOPPANI)",
+                        "presenters": "Stefano Minoia (Specialista di accessibilità digitale & Sviluppatore WordPress @ DigiVisionTech di Stefano Minoia)",
+                        "tags": ""
+                    }
+                ]
+            },
+            {
+                "start": "12:30",
+                "items": [
+                    {
+                        "id": 1107,
+                        "title": "Come gestire l'accessibilità digitale in azienda, da obbligo a prassi per l’intera organizzazione",
+                        "description": "Dopo aver compreso l'importanza dell'accessibilità digitale e condotto le prime analisi, è essenziale trasformare la gestione dell’accessibilità in una prassi condivisa all'interno dell'organizzazione. Questo intervento esplorerà come aziende di medie e grandi dimensioni possano organizzarsi al meglio per gestire l’accessibilità digitale in azienda; individuare le responsabilità, disegnare processi efficaci e scegliere gli strumenti giusti.",
+                        "color": "#FF0000",
+                        "location": "Track 1 (BAROZZI)",
+                        "presenters": "Marco Barbarossa (Manager @ Deloitte Digital), Roberta Bianco (Partner @ Deloitte Digital), Roberta Bianco (Partner @ Deloitte Digital)",
+                        "tags": ""
+                    },
+                    {
+                        "id": 1089,
+                        "title": "(Non) Dirlo con i colori",
+                        "description": "L'uso corretto dei colori riveste un ruolo cruciale nella percezione e nella fruizione dei contenuti di un progetto digitale, influenzando l'efficacia della comunicazione e l'esperienza complessiva dell'utente. Garantire un uso accessibile della palette cromatica, in linea con le raccomandazioni delle WCAG, permette di superare barriere visive e favorire una partecipazione piena e inclusiva, indipendentemente dalle capacità individuali. In questo talk discuteremo cos'è il colore e come è rappresentato nel mondo digitale, quali sono le difficoltà nell'uso del colore all'interno di un progetto digitale accessibile e le principali soluzioni",
+                        "color": "#00FF00",
+                        "location": "Track 2 (TRANI)",
+                        "presenters": "Antonio Giovanni (Funzionario @ Authority)",
+                        "tags": ""
+                    },
+                    {
+                        "id": null,
+                        "title": "Contenuto in fase di conferma",
+                        "description": "",
+                        "color": "#0000FF",
+                        "location": "Track 3 (STOPPANI)",
+                        "presenters": "",
+                        "tags": ""
+                    }
+                ]
+            },
+            {
+                "start": "13:15",
+                "items": [
+                    {
+                        "id": null,
+                        "title": "Pausa Pranzo",
+                        "description": "",
+                        "color": "#FFFFFF",
+                        "location": "Area Pranzo / Coffee Break",
+                        "presenters": "",
+                        "tags": ""
+                    }
+                ]
+            },
+            {
+                "start": "14:30",
+                "items": [
+                    {
+                        "id": null,
+                        "title": "Tavola Rotonda: accessibilità e Intelligenza Artificiale - Esplorando il futuro inclusivo",
+                        "description": "Questa tavola rotonda esplorerà il ruolo crescente dell'intelligenza artificiale (IA) nell'ambito dell'accessibilità. Discuteremo delle attuali applicazioni positive dell'IA, come strumenti di supporto per persone con disabilità, e delle potenziali implicazioni future. Analizzeremo sia le opportunità che le sfide, considerando gli aspetti etici e le possibili conseguenze non intenzionali dell'IA sull'inclusione. L'obiettivo è promuovere una riflessione critica e costruttiva sul futuro dell'accessibilità nell'era dell'intelligenza artificiale.",
+                        "color": "#FF0000",
+                        "location": "Track 1 (BAROZZI)",
+                        "presenters": "Roberto Scano (Esperto di Accessibilità), Fabio Paternò ()",
+                        "tags": ""
+                    },
+                    {
+                        "id": null,
+                        "title": "Usablenet",
+                        "description": "Contenuto da definire",
+                        "color": "#00FF00",
+                        "location": "Track 2 (TRANI)",
+                        "presenters": "",
+                        "tags": ""
+                    },
+                    {
+                        "id": 1112,
+                        "title": "Una scuola accessibile e inclusiva",
+                        "description": "Questo seminario permette di esplorare e approfondire le tematiche dell'inclusione scolastica e dell'accessibilità, elementi imprescindibili per la costruzione di un ambiente educativo di eccellenza. In un contesto sociale in continua evoluzione, la scuola è chiamata a rispondere alle esigenze di ogni studente, garantendo pari opportunità di apprendimento e sviluppo.",
+                        "color": "#0000FF",
+                        "location": "Track 3 (STOPPANI)",
+                        "presenters": "Lucia Iacopini (Pedagogista Clinico - Esperta di didattica tradizionale e digitale, di inclusione e normativa in ambito scolastico)",
+                        "tags": ""
+                    }
+                ]
+            },
+            {
+                "start": "15:30",
+                "items": [
+                    {
+                        "id": null,
+                        "title": "Microsoft AI for inclusion and innovation",
+                        "description": "Contenuto da definire",
+                        "color": "#FF0000",
+                        "location": "Track 1 (BAROZZI)",
+                        "presenters": "",
+                        "tags": ""
+                    },
+                    {
+                        "id": 1097,
+                        "title": "Verificato in casa per voi",
+                        "description": "Ci sono verifiche di accessibilità che può fare chiunque che spesso non sono fatte fa chi dovrebbe perché si basa solo su strumenti automatici. Scoprile con noi ti daremo tutti gli ingredienti per trovare problemi bloccanti di accessibilità senza sapere nulla di accessibilità.",
+                        "color": "#00FF00",
+                        "location": "Track 2 (TRANI)",
+                        "presenters": "Roberto Scano (Esperto di Accessibilità), Fabrizio Caccavello (Esperto di Accessibilità)",
+                        "tags": ""
+                    },
+                    {
+                        "id": null,
+                        "title": "Contenuto in fase di conferma",
+                        "description": "",
+                        "color": "#0000FF",
+                        "location": "Track 3 (STOPPANI)",
+                        "presenters": "",
+                        "tags": ""
+                    }
+                ]
+            },
+            {
+                "start": "16:30",
+                "items": [
+                    {
+                        "id": null,
+                        "title": "Contenuto in fase di conferma",
+                        "description": "",
+                        "color": "#FF0000",
+                        "location": "Track 1 (BAROZZI)",
+                        "presenters": "",
+                        "tags": ""
+                    },
+                    {
+                        "id": null,
+                        "title": "Le due anime dell'accessibilità: quando la legge incontra la tecnologia.",
+                        "description": "Questo seminario esplora il duplice aspetto dell'accessibilità, analizzando il rapporto tra il quadro normativo e l'implementazione tecnologica. Si approfondirà come le leggi e gli standard si traducano in soluzioni concrete per un'esperienza utente inclusiva, con un focus su usabilità, best practice e casi di studio. L'obiettivo è fornire strumenti e conoscenze per creare un mondo digitale accessibile a tutti.",
+                        "color": "#00FF00",
+                        "location": "Track 2 (TRANI)",
+                        "presenters": "Fabrizio Caccavello (Responsabile webaccessibile.org @ Accessibility Days - IWA), Matteo Salandri ()",
+                        "tags": ""
+                    },
+                    {
+                        "id": 1088,
+                        "title": "Tipografia, leggibilità e accessibilità digitale",
+                        "description": "A meno che non si ricorra a strumenti di lettura automatica (text-to-speech), la visita ad un sito web o l’utilizzo di un’app comporta una qualche esperienza di lettura attiva, più o meno approfondita, più o meno facile. L’esperienza varia profondamente in base a numerosi fattori, tra cui meccanismi visivi e cognitivi, attenzione, contesto d’uso e caratteristiche personali. Comprendere come leggiamo, le abilità coinvolte e i meccanismi compensativi che adottiamo è un tema di crescente interesse nella ricerca. L’evoluzione delle tecnologie web, la qualità degli schermi e la sempre maggiore disponibilità di font ben progettati permettono di creare prodotti altamente leggibili. Oggi più che mai occorre capire gli strumenti che abbiamo a disposizione per facilitare la fruizione e l’assorbimento dei contenuti ad una popolazione che legge sempre meno.",
+                        "color": "#0000FF",
+                        "location": "Track 3 (STOPPANI)",
+                        "presenters": "Giulia Laco (Web designer/developer @ Freelance)",
+                        "tags": ""
+                    }
+                ]
+            },
+            {
+                "start": "17:30",
+                "items": [
+                    {
+                        "id": 1094,
+                        "title": "IWA compie 25 anni",
+                        "description": "Evento di IWA per il 25 anni dalla sua fondazione. Saranno presenti i membri di IWA e alcuni ospiti per raccontare la storia dell'associazione.",
+                        "color": "#FF0000",
+                        "location": "Track 1 (BAROZZI)",
+                        "presenters": "Roberto Scano (Esperto di Accessibilità), Fabrizio Caccavello (Coordinatore webaccessibile.org)",
+                        "tags": ""
+                    },
+                    {
+                        "id": 1115,
+                        "title": "Oltre i confini del default: progettare componenti non standard accessibili",
+                        "description": "Questo talk affronta la sfida di rendere accessibili i componenti web complessi e non standard nelle interfacce moderne. Esploreremo l'implementazione efficace di WAI-ARIA attraverso ruoli, stati e proprietà essenziali per garantire compatibilità con screen reader e navigazione da tastiera. Analizzeremo casi reali come menù a discesa, switch, tab panel e carosello, fornendo linee guida pratiche per test di accessibilità e documentazione. Un percorso concreto per trasformare componenti complessi in strumenti inclusivi senza compromettere l'innovazione.",
+                        "color": "#00FF00",
+                        "location": "Track 2 (TRANI)",
+                        "presenters": "Diana Bernabei (Accessibility Engineer @ Inclusio)",
+                        "tags": ""
+                    },
+                    {
+                        "id": 1028,
+                        "title": "Controllo qualità dei PDF accessibili",
+                        "description": "Strumenti pratici per garantire che i documenti PDF rispettino i requisiti di accessibilità. Come riconoscere e correggere gli errori comuni attraverso esempi concreti: una guida utile per professionisti, aziende e istituzioni impegnate nell’inclusione digitale.",
+                        "color": "#0000FF",
+                        "location": "Track 3 (STOPPANI)",
+                        "presenters": "Damiano Viscardi (Esperto di grafica e di accessibilità dei PDF, docente di grafica)",
+                        "tags": ""
+                    }
+                ]
+            },
+            {
+                "start": "18:15",
+                "items": [
+                    {
+                        "id": null,
+                        "title": "",
+                        "description": "",
+                        "color": "#FFFFFF",
+                        "location": "Track 1 (BAROZZI)",
+                        "presenters": "",
+                        "tags": ""
+                    }
+                ]
+            },
+            {
+                "start": "18:45",
+                "items": [
+                    {
+                        "id": null,
+                        "title": "",
+                        "description": "",
+                        "color": "#FFFFFF",
+                        "location": "Track 1 (BAROZZI)",
+                        "presenters": "",
+                        "tags": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2025-05-16",
+        "label": "Workshop del venerdì (16 Maggio 2025)",
+        "events": [
+            {
+                "start": "10:30",
+                "items": [
+                    {
+                        "id": null,
+                        "title": "",
+                        "description": "",
+                        "color": "#00FFFF",
+                        "location": "Workshop 1 (Aula Mostre)",
+                        "presenters": "",
+                        "tags": ""
+                    },
+                    {
+                        "id": 1060,
+                        "title": "Perché sviluppare e “disegnare” accessibile da subito e non “in corsa”",
+                        "description": "In questo workshop esploreremo l'importanza di considerare l'accessibilità come parte integrante dello sviluppo e della progettazione, anziché un aspetto \"da rincorrere\" successivamente. Sviluppare e disegnare accessibile fin dall’inizio garantisce che la maggior parte degli utenti possano interagire con il sistema. Attraverso esempi concreti e riflessioni su pratiche consolidate, scopriremo i vantaggi di un approccio proattivo all'accessibilità: migliore user experience, risparmio di tempo e costi e conformità alle normative.\nL'elemento fondamentale è il design system, strumento che permette di consolidare linee guida, componenti e pattern accessibili: se ben strutturato, garantisce coerenza, scalabilità e conformità ai principi di accessibilità.\nUn workshop pensato per aiutare a comprendere come integrare l’accessibilità in un design system, rendendola non solo una scelta etica e normativa ma soprattutto strategica..",
+                        "color": "#FF00FF",
+                        "location": "Workshop 2 (Aula Mac)",
+                        "presenters": "Simone Dosoli (Web Accessibility Expert - Certified Web Accessibility Expert UNI 11621-3 @ Ergoproject srl)",
+                        "tags": ""
+                    },
+                    {
+                        "id": null,
+                        "title": "",
+                        "description": "",
+                        "color": "#00FFFF",
+                        "location": "Workshop 3 (Tocca e Impara)",
+                        "presenters": "",
+                        "tags": ""
+                    },
+                    {
+                        "id": 1042,
+                        "title": "Miglioriamo l' accessibilità visiva di FreeBSD.",
+                        "description": "FreeBSD è un sistema operativo Unix-like, open source, scaricabile e fruibile in modo totalmente gratuito. Il workshop è indirizzato a chiunque voglia saperne di più sul sistema operativo e la comunità open source: utenti, amministratori di sistema, programmatori e curiosi. L' incontro sarà molto informale con eventuale possibilità di utilizzare un portatile con FreeBSD.  Lo scopo è ricevere suggerimenti ed idee, provare il sistema operativo e spiegare come contribuire allo sviluppo in particolare per migliorare l' accessibilità visiva.",
+                        "color": "#FF00FF",
+                        "location": "Workshop 4 (Lab Informatica)",
+                        "presenters": "Alfonso Siciliano (Programmatore sistema operativo @ FreeBSD)",
+                        "tags": ""
+                    }
+                ]
+            },
+            {
+                "start": "11:30",
+                "items": [
+                    {
+                        "id": null,
+                        "title": "Accessibilità by design: partecipa al miglioramento del Design system .italia",
+                        "description": "Questa sessione, svolta in collaborazione con il team degli Accessibility Days è rivolta principalmente a esperti di accessibilità, designer e sviluppatori. Offre un’opportunità di confronto tecnico e attività pratiche per migliorare l’accessibilità delle risorse del design system del Paese. I partecipanti analizzeranno ad esempio la nuova versione del componente “Card” e la visualizzazione del focus per gli elementi interattivi. Sarà inoltre un’occasione per conoscere i lavori in corso per il nuovo kit di sviluppo basato su web components, che faciliterà l’integrazione con diversi framework. L’incontro alternerà momenti di discussione sulle scelte tecniche di accessibilità a fasi pratiche di verifica e feedback. Ogni partecipante dovrà portare i propri dispositivi e tecnologie assistive (BYOD). Tutti i contributi significativi verranno documentati nei repository pubblici del progetto, permettendo ai partecipanti di diventare parte attiva della community open source di Designers Italia.",
+                        "color": "#00FFFF",
+                        "location": "Workshop 1 (Aula Mostre)",
+                        "presenters": "Daniele Tabellini (Esperto UI/UX designer @ Dipartimento per la trasformazione digitale), Fabrizio Caccavello (Accessibility Expert Senior @ Accessibility Days)",
+                        "tags": ""
+                    },
+                    {
+                        "id": null,
+                        "title": "",
+                        "description": "",
+                        "color": "#FF00FF",
+                        "location": "Workshop 2 (Aula Mac)",
+                        "presenters": "",
+                        "tags": ""
+                    },
+                    {
+                        "id": 1082,
+                        "title": "Sottotitoli manuali e automatici a confronto: evoluzione tecnologica, contesti d’utilizzo e qualità",
+                        "description": "I sottotitoli in tempo reale sono essenziali per le persone con sordità e per gli stranieri, perché permettono loro di accedere a ogni tipo di evento dal vivo. L’intelligenza artificiale sembra capace di produrli in modo rapido e accurato. Ma sarà davvero così? In questo workshop cercheremo di rispondere a questo quesito, approfondendo gli aspetti tecnici e scientifici dei sottotitoli in tempo reale. Innanzitutto, spiegheremo la differenza tra sottotitoli automatici e sottotitoli manuali, illustrandone pro e contro.Poi analizzeremo il potenziale delle app di trascrizione automatica offerte da Google, Ava e Samsung, con particolare riferimento alle chiamate telefoniche (qualità dell’audio, latenza e distinzione tra interlocutori).\nInfine, presenteremo i risultati di due ricerche universitarie che confrontano la qualità dei sottotitoli automatici e manuali in italiano e in spagnolo, in vari contesti (TV, conferenze, parlamento) e secondo parametri come accuratezza, ritardo e leggibilità",
+                        "color": "#00FFFF",
+                        "location": "Workshop 3 (Tocca e Impara)",
+                        "presenters": "Giacomo Pirelli (Impiegato universitario e Vice Presidente @ onA.I.R. Intersteno e Università degli Studi di Torino), Carlo Eugeni (Professore associato di traduzione audiovisiva e accessibilità dei media @ Università di Leeds), Maria Rico Vasquez (Dottoranda universitaria @ Università di Vigo)",
+                        "tags": ""
+                    },
+                    {
+                        "id": null,
+                        "title": "",
+                        "description": "",
+                        "color": "#FF00FF",
+                        "location": "Workshop 4 (Lab Informatica)",
+                        "presenters": "",
+                        "tags": ""
+                    }
+                ]
+            },
+            {
+                "start": "13:15",
+                "items": [
+                    {
+                        "id": null,
+                        "title": "Pausa Pranzo",
+                        "description": "",
+                        "color": "#FFFFFF",
+                        "location": "Reception",
+                        "presenters": "",
+                        "tags": ""
+                    }
+                ]
+            },
+            {
+                "start": "14:30",
+                "items": [
+                    {
+                        "id": null,
+                        "title": "",
+                        "description": "",
+                        "color": "#00FFFF",
+                        "location": "Workshop 1 (Aula Mostre)",
+                        "presenters": "",
+                        "tags": ""
+                    },
+                    {
+                        "id": null,
+                        "title": "",
+                        "description": "",
+                        "color": "#FF00FF",
+                        "location": "Workshop 2 (Aula Mac)",
+                        "presenters": "",
+                        "tags": ""
+                    },
+                    {
+                        "id": 1025,
+                        "title": "Didattica Inclusiva e Realtà Aumentata: Principi e Metodi per il Design di Mediatori Accessibili",
+                        "description": "Il workshop “Didattica Inclusiva e Realtà Aumentata: Principi e Metodi per il Design di Mediatori Accessibili e Multisensoriali” mira a fornire conoscenze e competenze chiave per la progettazione di strumenti e materiali didattici inclusivi attraverso l’utilizzo della tecnologia di Realtà Aumentata. Nello specifico, i partecipanti potranno approfondire i temi della didattica inclusiva dell’arte e della geografia attraverso un percorso di approfondimento rispetto alla personalizzazione delle soluzioni di apprendimento, alla progettazione dei contenuti didattici e all’integrazione delle nuove tecnologie. I partecipanti, dopo un momento di formazione sui framework epistemologici della didattica inclusiva e delle tecnologie educative, saranno accompagnati nella progettazione e realizzazione di un contenuto didattico AR-based accessibile e inclusivo.",
+                        "color": "#00FFFF",
+                        "location": "Workshop 3 (Tocca e Impara)",
+                        "presenters": "Catia Giaconi (Professore Ordinario @ Università di Macerata), Simone Betti (Professore Ordinario @ Università di Macerata), Tommaso Santilli (PhD Student @ Università di Macerata), Lorenzo Virgini (PhD Student @ Università di Macerata)",
+                        "tags": ""
+                    },
+                    {
+                        "id": null,
+                        "title": "",
+                        "description": "",
+                        "color": "#FF00FF",
+                        "location": "Workshop 4 (Lab Informatica)",
+                        "presenters": "",
+                        "tags": ""
+                    }
+                ]
+            },
+            {
+                "start": "16:00",
+                "items": [
+                    {
+                        "id": null,
+                        "title": "",
+                        "description": "",
+                        "color": "#00FFFF",
+                        "location": "Workshop 1 (Aula Mostre)",
+                        "presenters": "",
+                        "tags": ""
+                    },
+                    {
+                        "id": null,
+                        "title": "",
+                        "description": "",
+                        "color": "#FF00FF",
+                        "location": "Workshop 2 (Aula Mac)",
+                        "presenters": "",
+                        "tags": ""
+                    },
+                    {
+                        "id": 1006,
+                        "title": "Laboratorio I-Ork",
+                        "description": "I-Ork (Inclusive orchestra) è un progetto che utilizza le tecnologie informatiche per realizzare strumenti musicali accessibili che consentano anche alle persone con disabilità di fare musica in maniera condivisa e gratificante. Durante questo laboratorio presenteremo al pubblico i nostri strumenti evidenziandone le potenzialità espressive. Dopo una breve introduzione avvieremo una fase operativa durante la quale i presenti potranno provare gli strumenti e preparsi a partecipare a un'esecuzione finale. Se sarà possibile potremmo portare con noi anche alcuni ragazzi con varie disabilità con cui abbiamo già lavorato e con cui lavoreremo anche nel corso di quest'anno.\nMaggiori info \nhttps: //www.teachmusic.it/",
+                        "color": "#00FFFF",
+                        "location": "Workshop 3 (Tocca e Impara)",
+                        "presenters": "Marcella Mandanici (Presidente @ TeAch Music APS), Sara Valente (Vicepresidente @ TeAch Music APS)",
+                        "tags": ""
+                    },
+                    {
+                        "id": null,
+                        "title": "",
+                        "description": "",
+                        "color": "#FF00FF",
+                        "location": "Workshop 4 (Lab Informatica)",
+                        "presenters": "",
+                        "tags": ""
+                    }
+                ]
+            }
+        ]
+    }
+]
