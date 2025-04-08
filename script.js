@@ -127,7 +127,6 @@ function createSpeakersList(speakers) {
 }
 
 function openSpeakerModal(e) {
-    console.log(e.target)
     const id = e.target.getAttribute('data-id');
     const firstName = e.target.getAttribute('data-firstname');
     const lastName = e.target.getAttribute('data-lastname');
@@ -135,7 +134,6 @@ function openSpeakerModal(e) {
     const organization = e.target.getAttribute('data-organization');
     const bio = e.target.getAttribute('data-bio');
     const picture = e.target.getAttribute('data-picture');
-    console.log(picture)
 
     const dialog = document.querySelector('#speakerDialog');
     
@@ -207,26 +205,25 @@ function renderProgram(data, filters = {}) {
     // Applica i filtri
     let filteredData = [...data];
     
-    // Filtro per giorno
-    if (filters.day && filters.day !== 'all') {
-        filteredData = filteredData.filter(day => day.date === filters.day);
+    if (filters.agenda && filters.agenda !== 'all') {
+        filteredData = filteredData.filter(agenda => agenda.id == filters.agenda);
     }
 
     // Crea l'HTML per ogni giorno
     let hasEvents = false;
     
-    filteredData.forEach(day => {
+    filteredData.forEach(el => {
         // Determina se è un giorno di workshop o di sessioni normali
-        const isWorkshopDay = day.label.toLowerCase().includes('workshop');
+        const isWorkshopDay = el.label.toLowerCase().includes('workshop');
         const sectionClass = isWorkshopDay ? 'workshop-section' : 'session-section';
         
-        let dayHtml = `
-            <div class="day-section ${sectionClass}" data-date="${day.date}">
-                <h2 class="day-header">${day.label}</h2>
+        let elHtml = `
+            <div class="day-section ${sectionClass}" data-id="${el.id}">
+                <h2 class="day-header">${el.label}</h2>
         `;
 
         // Per ogni fascia oraria del giorno
-        day.events.forEach(event => {
+        el.events.forEach(event => {
             // Filtra gli elementi in base alla location se specificato
             let filteredItems = event.items;
             if (filters.location && filters.location !== 'all') {
@@ -252,7 +249,7 @@ function renderProgram(data, filters = {}) {
             // Determina se questa fascia oraria contiene workshop
             const containerClass = isWorkshopDay ? 'workshop-container' : 'session-container';
             
-            dayHtml += `
+            elHtml += `
                 <div class="time-slot">
                     <h3 class="time">${event.start}</h3>
                     <div class="event-container ${containerClass}">
@@ -260,20 +257,20 @@ function renderProgram(data, filters = {}) {
 
             // Aggiungi ogni evento nella fascia oraria
             filteredItems.forEach(item => {
-                dayHtml += createEventCard(item);
+                elHtml += createEventCard(item);
             });
 
-            dayHtml += `
+            elHtml += `
                     </div>
                 </div>
             `;
         });
 
-        dayHtml += `</div>`;
+        elHtml += `</div>`;
         
         // Aggiungi la sezione del giorno solo se ha eventi
         if (hasEvents) {
-            container.innerHTML += dayHtml;
+            container.innerHTML += elHtml;
             hasEvents = false;
         }
     });
@@ -286,24 +283,16 @@ function renderProgram(data, filters = {}) {
 
 // Funzione per popolare i filtri
 function populateFilters(data) {
-    const dayFilter = document.getElementById('day-filter');
+    const agendaFilter = document.getElementById('agenda-filter');
     const locationFilter = document.getElementById('location-filter');
     
     // Popola le date
-console.log(data)
-
-    const dates = new Set();
-    data.forEach(day => {
-        dates.add(day.date);
-    });
-    
-    dates.forEach(date => {
-        const dayLabel = data.find(d => d.date === date)?.label || date;
+    data.forEach(el => {
         const option = document.createElement('option');
-        option.value = date;
-        option.textContent = dayLabel;
+        option.value = el.id;
+        option.textContent = el.label;
         
-        dayFilter.appendChild(option);
+        agendaFilter.appendChild(option);
     });
     
     // Popola le location
@@ -341,7 +330,7 @@ async function init() {
         renderProgram(programData);
         
         // Imposta gli event listener per i filtri
-        document.getElementById('day-filter').addEventListener('change', applyFilters);
+        document.getElementById('agenda-filter').addEventListener('change', applyFilters);
         document.getElementById('location-filter').addEventListener('change', applyFilters);
         document.getElementById('search-button').addEventListener('click', applyFilters);
         document.getElementById('search-input').addEventListener('keyup', function(event) {
@@ -354,13 +343,47 @@ async function init() {
 }
 
 // Funzione per applicare i filtri
-function applyFilters() {
-    const dayValue = document.getElementById('day-filter').value;
-    const locationValue = document.getElementById('location-filter').value;
+async function applyFilters() {
+    const agendaValue = document.getElementById('agenda-filter').value;
+    let locationValue = document.getElementById('location-filter').value;
     const searchText = document.getElementById('search-input').value;
+    const locationFilter = document.getElementById('location-filter');
+
+    const data = await loadProgram();
+    
+    // Aggiorno lista locations sulla base del filtro agenda applicato
+    const locations = new Set();
+    data.forEach(agenda => {
+        if(agendaValue === "all" || agendaValue == agenda.id) {
+            agenda.events.forEach(event => {
+                event.items.forEach(item => {
+                    if (item.location && item.location !== "Reception" && item.location !== "Area Pranzo / Coffee Break") {
+                        locations.add(item.location);
+                    }
+                });
+            });
+        }
+    });
+
+    if(locationValue == "all" || !locations.has(locationValue)) {
+        locationValue = "all";
+        locationFilter.innerHTML = '';
+    
+        const option = document.createElement('option');
+        option.value = "all";
+        option.textContent = "Tutte le location";
+        locationFilter.appendChild(option);
+        
+        [...locations].sort().forEach(location => {
+            const option = document.createElement('option');
+            option.value = location;
+            option.textContent = location;
+            locationFilter.appendChild(option);
+        });
+    }
     
     renderProgram(window.programData, {
-        day: dayValue,
+        agenda: agendaValue,
         location: locationValue,
         searchText: searchText
     });
@@ -368,7 +391,7 @@ function applyFilters() {
 
 // Funzione per resettare i filtri
 function resetFilters() {
-    document.getElementById('day-filter').value = 'all';
+    document.getElementById('agenda-filter').value = 'all';
     document.getElementById('location-filter').value = 'all';
     document.getElementById('search-input').value = '';
     
