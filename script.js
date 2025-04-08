@@ -109,11 +109,15 @@ function createSpeakersList(speakers) {
                 data-lastname="${speaker.last_name.replace(/"/g, '&quot;')}"
                 data-jobtitle="${(speaker.job_title || '').replace(/"/g, '&quot;')}"
                 data-organization="${(speaker.organization || '').replace(/"/g, '&quot;')}"
-
+                data-bio="${(speaker.bio || '').replace(/"/g, '&quot;')}"
+                data-picture="${(speaker.profile_picture_url || '')}"
                 onClick="openSpeakerModal(event)"
+                class="not-print"
             >
-            ${speaker.first_name+' '+speaker.last_name}${job}
+            ${speaker.first_name+' '+speaker.last_name}
             </button>
+            <span class="not-print">${job}</span>
+            <span class="only-print">${speaker.first_name.replace(/"/g, '&quot;')} ${speaker.last_name.replace(/"/g, '&quot;')} ${ `(${(speaker.organization || '').replace(/"/g, '&quot;')})`}</span>
         </li>`;
 
     });
@@ -123,25 +127,39 @@ function createSpeakersList(speakers) {
 }
 
 function openSpeakerModal(e) {
-    console.log(e)
+    console.log(e.target)
     const id = e.target.getAttribute('data-id');
     const firstName = e.target.getAttribute('data-firstname');
     const lastName = e.target.getAttribute('data-lastname');
     const jobTitle = e.target.getAttribute('data-jobtitle');
     const organization = e.target.getAttribute('data-organization');
+    const bio = e.target.getAttribute('data-bio');
+    const picture = e.target.getAttribute('data-picture');
+    console.log(picture)
 
     const dialog = document.querySelector('#speakerDialog');
     
     // Popola il dialog con i dati dello speaker
-    document.querySelector('#modalTitle').textContent = `${firstName} ${lastName}`;
+    //document.querySelector('#modalTitle').textContent = `${firstName} ${lastName}`;
     document.querySelector('#name').textContent = firstName;
     document.querySelector('#surname').textContent = lastName;
-    document.querySelector('#jobTitle').textContent = jobTitle || 'Non specificato';
-    document.querySelector('#organization').textContent = organization || 'Non specificata';
+    document.querySelector('#jobTitle').textContent = jobTitle || '';
+    document.querySelector('#organization').textContent = organization || '';
+    document.querySelector('#bio').textContent = bio || '';
+    document.querySelector('#picture') ? document.querySelector('#picture').style.backgroundImage = "url('"+picture+"')" || '' : '';
     
     // Apri il dialog
     dialog.showModal();
+    document.querySelector("body").style.overflow = "hidden";
 }
+
+function closeDialog(e){
+    // Chiudi modale
+    document.querySelector("body").style.overflow = "auto";
+    document.querySelector('#speakerDialog').close();
+}
+    
+    
 
 // Funzione per generare l'HTML di un evento
 function createEventCard(item) {
@@ -161,11 +179,13 @@ function createEventCard(item) {
 
     /* ${item.presenters && item.presenters !== '' ? createPresentersList(item.presenters) : ''} */
 
+
     return `
         <div class="event-card ${colorClass}" data-id="${item.id}">
-            <div class="event-id">ID: ${item.id}</div>
-            <h4 class="event-title">${item.title || 'Titolo non disponibile'}</h4>
+         <div class="event-id">ID: ${item.id}</div> 
             <div class="event-location">${item.location || ''}</div>
+            <h4 class="event-title">${item.title || 'Titolo non disponibile'}</h4>
+            
             ${item.speakers && item.speakers.length ? createSpeakersList(item.speakers) : ''}
             ${item.description && item.description !== '' ? 
                 `<div class="event-description"><details><summary>Leggi abstract</summary>${item.description}</details></div>` : ''}
@@ -270,6 +290,8 @@ function populateFilters(data) {
     const locationFilter = document.getElementById('location-filter');
     
     // Popola le date
+console.log(data)
+
     const dates = new Set();
     data.forEach(day => {
         dates.add(day.date);
@@ -280,6 +302,7 @@ function populateFilters(data) {
         const option = document.createElement('option');
         option.value = date;
         option.textContent = dayLabel;
+        
         dayFilter.appendChild(option);
     });
     
@@ -288,7 +311,9 @@ function populateFilters(data) {
     data.forEach(day => {
         day.events.forEach(event => {
             event.items.forEach(item => {
-                if (item.location) locations.add(item.location);
+                if (item.location && item.location !== "Reception" && item.location !== "Area Pranzo / Coffee Break") {
+                    locations.add(item.location);
+                }
             });
         });
     });
