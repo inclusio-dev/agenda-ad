@@ -45,5 +45,28 @@
     <script src="./script.js"></script>
 
     <footer>© Copyright Accessibility Days APS 2025 - Tutti i diritti riservati</footer>
+
+    <dialog id="speakerDialog" class="center">
+        <h2 id="modalTitle">Informazioni Relatore</h2>
+        <ul class="speaker-details">
+            <li class="detail-item">
+                <span class="label">Nome:</span>
+                <span id="name" class="value"></span>
+            </li>
+            <li class="detail-item">
+                <span class="label">Cognome:</span>
+                <span id="surname" class="value"></span>
+            </li>
+            <li class="detail-item">
+                <span class="label">Ruolo:</span>
+                <span id="jobTitle" class="value"></span>
+            </li>
+            <li class="detail-item">
+                <span class="label">Organizzazione:</span>
+                <span id="organization" class="value"></span>
+            </li>
+        </ul>
+        <button class="close" type="button" onClick="document.querySelector('#speakerDialog').close()">Chiudi</button>
+    </dialog>
 </body>
 </html>

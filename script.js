@@ -2,12 +2,12 @@
 async function loadProgram() {
     try {
         // Carica il file JSON direttamente dalla stessa cartella
-        const response = await fetch('2025.json');
+        const response = await fetch('agendas.json');
         if (!response.ok) {
             throw new Error(`Errore HTTP: ${response.status}`);
         }
         const programData = await response.json();
-        return programData;
+        return programData.data;
     } catch (error) {
         console.error('Errore nel caricamento del programma:', error);
         return [];
@@ -20,11 +20,13 @@ function getColorClass(hexColor) {
     
     switch(hexColor.toUpperCase()) {
         case '#FFFFFF': return 'color-white';
-        case '#FF0000': return 'color-red';
-        case '#00FF00': return 'color-green';
-        case '#0000FF': return 'color-blue';
-        case '#00FFFF': return 'color-cyan';
-        case '#FF00FF': return 'color-magenta';
+        case '#B51963': return 'color-dark-pink';
+        case '#054FB9': return 'color-dark-blue';
+        case '#89CE00': return 'color-acid-green';
+        case '#00B4C5': return 'color-tiffany';
+        case '#E47895': return 'color-pink';
+        case '#F57600': return 'color-orange';
+        case '#9B8BF4': return 'color-lilla';
         default: return 'color-white';
     }
 }
@@ -80,6 +82,67 @@ function createPresentersList(presenters) {
     return html;
 }
 
+function createSpeakersList(speakers) {
+    // Crea la lista HTML
+    let html = '<div class="event-presenter"><strong>Speakers:</strong>';
+    html += '<ul class="presenters-list">';
+    
+    speakers.forEach(speaker => {
+        let job = ' ';
+
+        if(!speaker.job_title && speaker.organization) {
+            job += `(${speaker.organization})`;
+        }
+
+        if(speaker.job_title && !speaker.organization) {
+            job += `(${speaker.job_title})`;
+        }
+
+        if(speaker.job_title && speaker.organization) {
+            job += `(${speaker.job_title} @ ${speaker.organization})`;
+        }
+
+        html += `<li>
+            <button 
+                data-id="${speaker.id}"
+                data-firstname="${speaker.first_name.replace(/"/g, '&quot;')}"
+                data-lastname="${speaker.last_name.replace(/"/g, '&quot;')}"
+                data-jobtitle="${(speaker.job_title || '').replace(/"/g, '&quot;')}"
+                data-organization="${(speaker.organization || '').replace(/"/g, '&quot;')}"
+
+                onClick="openSpeakerModal(event)"
+            >
+            ${speaker.first_name+' '+speaker.last_name}${job}
+            </button>
+        </li>`;
+
+    });
+    
+    html += '</ul></div>';
+    return html;
+}
+
+function openSpeakerModal(e) {
+    console.log(e)
+    const id = e.target.getAttribute('data-id');
+    const firstName = e.target.getAttribute('data-firstname');
+    const lastName = e.target.getAttribute('data-lastname');
+    const jobTitle = e.target.getAttribute('data-jobtitle');
+    const organization = e.target.getAttribute('data-organization');
+
+    const dialog = document.querySelector('#speakerDialog');
+    
+    // Popola il dialog con i dati dello speaker
+    document.querySelector('#modalTitle').textContent = `${firstName} ${lastName}`;
+    document.querySelector('#name').textContent = firstName;
+    document.querySelector('#surname').textContent = lastName;
+    document.querySelector('#jobTitle').textContent = jobTitle || 'Non specificato';
+    document.querySelector('#organization').textContent = organization || 'Non specificata';
+    
+    // Apri il dialog
+    dialog.showModal();
+}
+
 // Funzione per generare l'HTML di un evento
 function createEventCard(item) {
     const colorClass = getColorClass(item.color);
@@ -96,14 +159,16 @@ function createEventCard(item) {
         }
     }
 
+    /* ${item.presenters && item.presenters !== '' ? createPresentersList(item.presenters) : ''} */
+
     return `
         <div class="event-card ${colorClass}" data-id="${item.id}">
             <div class="event-id">ID: ${item.id}</div>
             <h4 class="event-title">${item.title || 'Titolo non disponibile'}</h4>
             <div class="event-location">${item.location || ''}</div>
-            ${item.presenters && item.presenters !== '' ? createPresentersList(item.presenters) : ''}
+            ${item.speakers && item.speakers.length ? createSpeakersList(item.speakers) : ''}
             ${item.description && item.description !== '' ? 
-                `<div class="event-description">${item.description}</div>` : ''}
+                `<div class="event-description"><details><summary>Leggi abstract</summary>${item.description}</details></div>` : ''}
             ${tagsHtml}
         </div>
     `;
