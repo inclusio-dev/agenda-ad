@@ -33,6 +33,7 @@ function getColorClass(hexColor) {
 
 // Funzione per creare una lista di relatori
 function createPresentersList(presenters) {
+    
     if (!presenters || presenters === '') return '';
     
     // Dividi la stringa dei presentatori
@@ -146,15 +147,67 @@ function openSpeakerModal(e) {
     document.querySelector('#bio').textContent = bio || '';
     document.querySelector('#picture') ? document.querySelector('#picture').style.backgroundImage = "url('"+picture+"')" || '' : '';
     
+    const cleanup = clickOutside(dialog, () => {
+        dialog.close();
+    });
+
     // Apri il dialog
     dialog.showModal();
     document.querySelector("body").style.overflow = "hidden";
 }
 
-function closeDialog(e){
-    // Chiudi modale
+/**
+ * Gestisce il click all'esterno di un dialog
+ * @param {HTMLDialogElement} dialog - Dialog da monitorare
+ * @param {Function} callback - Funzione da eseguire al click esterno
+ */
+function clickOutside(dialog, callback) {
+    // Funzione per il click esterno
+    const handleClick = (e) => {
+      if (dialog.open && !dialog.contains(e.target)) {
+        callback(e);
+      }
+    };
+    
+    // Aggiungi listener solo all'apertura
+    dialog.addEventListener('open', () => {
+      document.addEventListener('click', handleClick);
+    });
+    
+    // Rimuovi listener alla chiusura
+    dialog.addEventListener('close', () => {
+      document.removeEventListener('click', handleClick);
+    });
+    
+    // Se è già aperto, aggiungi subito il listener
+    if (dialog.open) {
+      document.addEventListener('click', handleClick);
+    }
+    
+    // Funzione per rimuovere tutti i listener
+    return () => {
+      document.removeEventListener('click', handleClick);
+      dialog.removeEventListener('open', () => {
+        document.addEventListener('click', handleClick);
+      });
+      dialog.removeEventListener('close', () => {
+        document.removeEventListener('click', handleClick);
+      });
+    };
+  }
+  
+  // Uso: const cleanup = clickOutside(dialogElement, () => dialogElement.close());
+
+function closeDialog(){
     document.querySelector("body").style.overflow = "auto";
     document.querySelector('#speakerDialog').close();
+}
+
+function handleKeydownDialog(event){
+    if (event.key === 'Escape' || event.key === 'Esc' || event.keyCode === 27) {        
+        closeDialog();
+        event.preventDefault();
+      }
 }
     
     
