@@ -85,7 +85,7 @@ function createPresentersList(presenters) {
 
 function createSpeakersList(speakers) {
     // Crea la lista HTML
-    let html = '<div class="event-presenter"><strong>Speakers:</strong>';
+    let html = '<div class="event-presenter"><strong>Speaker:</strong>';
     html += '<ul class="presenters-list">';
     
     speakers.forEach(speaker => {

@@ -208,7 +208,7 @@ dialog#speakerDialog div.container div{
 }
 .event-card.color-dark-pink button, .event-card.color-dark-pink .event-description summary{
     background: transparent;
-    border: 2px solid #B51963;
+    border-color: #B51963;
     color: #000000;
 }
 
@@ -218,7 +218,7 @@ dialog#speakerDialog div.container div{
 }
 .event-card.color-dark-blue button, .event-card.color-dark-blue .event-description summary{
     background: transparent;
-    border: 2px solid #054FB9;
+    border-color: #054FB9;
     color: #000000;
 }
 
@@ -228,7 +228,7 @@ dialog#speakerDialog div.container div{
 }
 .event-card.color-acid-green button, .event-card.color-acid-green .event-description summary{
     background: transparent;
-    border: 2px solid #89CE00;
+    border-color: #89CE00;
     color: #000000;
 }
 
@@ -238,7 +238,7 @@ dialog#speakerDialog div.container div{
 }
 .event-card.color-tiffany button, .event-card.color-tiffany .event-description summary{
     background: transparent;
-    border: 2px solid #00B4C5;
+    border-color: #00B4C5;
     color: #000000;
 }
 
@@ -248,7 +248,7 @@ dialog#speakerDialog div.container div{
 }
 .event-card.color-pink button, .event-card.color-pink .event-description summary{
     background: transparent;
-    border: 2px solid #E47895;
+    border-color: #E47895;
     color: #000000;
 }
 
@@ -258,7 +258,7 @@ dialog#speakerDialog div.container div{
 }
 .event-card.color-orange button, .event-card.color-orange .event-description summary{
     background: transparent;
-    border: 2px solid #F57600;
+    border-color: #F57600;
     color: #000000;
 }
 
@@ -268,9 +268,22 @@ dialog#speakerDialog div.container div{
 }
 .event-card.color-lilla button, .event-card.color-lilla .event-description summary{
     background: transparent;
-    border: 2px solid #9B8BF4;
+    border-color: #9B8BF4;
     color: #000000;
 }
+
+.event-card button{
+    font-weight: 700;
+    border-width: 4px;
+    border-style: solid;
+    text-transform: capitalize;
+}
+
+.event-card summary{
+    border-width: 2px;
+    border-style: solid;
+}
+
 
 /* Responsive design */
 
