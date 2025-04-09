@@ -54,6 +54,11 @@ function getColorClass(hexColor) {
     }
 }
 
+const iconList = `<svg aria-hidden="true" class="list-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="8" cy="5" r="3" stroke="#000000" stroke-width="1.5"/>
+    <path d="M3 14C3 11.2386 5.23858 9 8 9C10.7614 9 13 11.2386 13 14" stroke="#000000" stroke-width="1.5"/>
+</svg>`;
+
 function createSpeakersList(speakers) {
     let html = '<div class="event-presenter"><strong>Speaker:</strong>';
     html += '<ul class="presenters-list">';
@@ -74,6 +79,7 @@ function createSpeakersList(speakers) {
         }
 
         html += `<li>
+            ${iconList}
             <button 
                 data-id="${speaker.id}"
                 data-firstname="${speaker.first_name.replace(/"/g, '&quot;')}"
