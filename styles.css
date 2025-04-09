@@ -182,8 +182,8 @@ ul.presenters-list > li::before {
 }
 
 dialog#speakerDialog {
-    width: 60vw;
-    height: 60vh;
+    width: 70vw;
+    height: 70vh;
     overflow-y: scroll;
     padding: 2rem;
     scrollbar-width: thin;
