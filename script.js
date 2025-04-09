@@ -45,7 +45,7 @@ function getColorClass(hexColor) {
         case '#FFFFFF': return 'color-white';
         case '#B51963': return 'color-dark-pink';
         case '#054FB9': return 'color-dark-blue';
-        case '#89CE00': return 'color-acid-green';
+        case '#006400': return 'color-green';
         case '#00B4C5': return 'color-tiffany';
         case '#E47895': return 'color-pink';
         case '#F57600': return 'color-orange';
@@ -53,11 +53,10 @@ function getColorClass(hexColor) {
         default: return 'color-white';
     }
 }
-
-const iconList = `<svg aria-hidden="true" class="list-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="8" cy="5" r="3" stroke="#333333" stroke-width="1.5"/>
-    <path d="M3 14C3 11.2386 5.23858 9 8 9C10.7614 9 13 11.2386 13 14" stroke="#333333" stroke-width="1.5"/>
-</svg>`;
+// class="list-icon" aria-hidden="true" width="16" height="16"
+const iconList = `
+<svg class="list-icon" aria-hidden="true" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM241 377c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l87-87-87-87c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L345 239c9.4 9.4 9.4 24.6 0 33.9L241 377z"/></svg>
+`;
 
 function createSpeakersList(speakers) {
     let html = '<div class="event-presenter"><strong>Speaker:</strong>';

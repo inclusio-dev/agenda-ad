@@ -264,77 +264,133 @@ dialog#speakerDialog div.container div {
     border-left: 10px solid #b51963;
     background-color: rgba(181, 25, 99, 0.1);
 }
-.event-card.color-dark-pink button,
-.event-card.color-dark-pink .event-description summary {
+.event-card.color-dark-pink .list-icon{
+    fill: #b51963;
+}
+.event-card.color-dark-pink button{
     background: transparent;
     border-color: #b51963;
     color: #333;
+}
+.event-card.color-dark-pink .event-description summary {
+    background: #b51963;
+    color: #fff;
+    border: 0;
+    font-weight: 700;
 }
 
 .event-card.color-dark-blue {
     border-left: 10px solid #054fb9;
     background-color: rgba(5, 79, 185, 0.1);
 }
-.event-card.color-dark-blue button,
-.event-card.color-dark-blue .event-description summary {
+.event-card.color-dark-blue .list-icon{
+    fill: #054fb9;
+}
+.event-card.color-dark-blue button{
     background: transparent;
     border-color: #054fb9;
     color: #333;
 }
+.event-card.color-dark-blue .event-description summary {
+    background: #054fb9;
+    color: #fff;
+    border: 0;
+    font-weight: 700;
+}
 
-.event-card.color-acid-green {
+.event-card.color-green {
     border-left: 10px solid #006400;
     background-color: rgba(0, 100, 0, 0.1);
 }
-.event-card.color-acid-green button,
-.event-card.color-acid-green .event-description summary {
+.event-card.color-green .list-icon{
+    fill: #006400;
+}
+.event-card.color-green button {
     background: transparent;
     border-color: #006400;
     color: #333;
+}
+.event-card.color-green .event-description summary{
+    background: #006400;
+    color: #fff;
+    border: 0;
+    font-weight: 700;
 }
 
 .event-card.color-tiffany {
     border-left: 10px solid #00b4c5;
     background-color: rgba(0, 180, 197, 0.1);
 }
-.event-card.color-tiffany button,
-.event-card.color-tiffany .event-description summary {
+.event-card.color-tiffany .list-icon{
+    fill: #00b4c5;
+}
+.event-card.color-tiffany button {
     background: transparent;
     border-color: #00b4c5;
     color: #333;
+}
+.event-card.color-tiffany .event-description summary{
+    background: #00b4c5;
+    color: #000;
+    border: 0;
+    font-weight: 700;
 }
 
 .event-card.color-pink {
     border-left: 10px solid #e47895;
     background-color: rgba(228, 120, 149, 0.1);
 }
-.event-card.color-pink button,
-.event-card.color-pink .event-description summary {
+.event-card.color-pink button{
     background: transparent;
     border-color: #e47895;
     color: #333;
+}
+.event-card.color-pink .list-icon{
+    fill: #e47895;
+}
+.event-card.color-pink .event-description summary {
+    background: #e47895;
+    color: #000;
+    border: 0;
+    font-weight: 700;
 }
 
 .event-card.color-orange {
     border-left: 10px solid #f57600;
     background-color: rgba(245, 118, 0, 0.1);
 }
-.event-card.color-orange button,
-.event-card.color-orange .event-description summary {
+.event-card.color-orange .list-icon{
+    fill: #f57600;
+}
+.event-card.color-orange button{
     background: transparent;
     border-color: #f57600;
     color: #333;
+}
+.event-card.color-orange .event-description summary {
+    background: #f57600;
+    color: #000;
+    border: 0;
+    font-weight: 700;
 }
 
 .event-card.color-lilla {
     border-left: 10px solid #9b8bf4;
     background-color: rgba(155, 139, 244, 0.1);
 }
-.event-card.color-lilla button,
-.event-card.color-lilla .event-description summary {
+.event-card.color-lilla .list-icon{
+    fill: #9b8bf4;
+}
+.event-card.color-lilla button{
     background: transparent;
     border-color: #9b8bf4;
     color: #333;
+}
+.event-card.color-lilla .event-description summary {
+    background: #9b8bf4;
+    color: #000;
+    border: 0;
+    font-weight: 700;
 }
 
 .event-card button {
