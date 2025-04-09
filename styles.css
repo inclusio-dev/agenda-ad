@@ -194,7 +194,7 @@ dialog#speakerDialog {
 }
 
 /* Personalizzazione barra di scorrimento per il dialog */
-dialog#speakerDialog::-webkit-scrollbar {
+/* dialog#speakerDialog::-webkit-scrollbar {
     width: 4px;
     height: 4px;
     -webkit-appearance: none;
@@ -212,7 +212,7 @@ dialog#speakerDialog::-webkit-scrollbar-thumb {
 
 dialog#speakerDialog::-webkit-scrollbar-corner {
     background: transparent;
-}
+} */
 
 /* Soluzione per iOS - aggiunge un indicatore di scorrimento visibile */
 @supports (-webkit-touch-callout: none) {
