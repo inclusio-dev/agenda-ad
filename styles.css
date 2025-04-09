@@ -182,11 +182,9 @@ ul.presenters-list > li::before {
 }
 
 dialog#speakerDialog {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
-    height: 80%;
+
+    width: 4rem;
+    height: 4rem;
     overflow-y: scroll;
     padding: 2rem;
     scrollbar-width: thin;
@@ -215,7 +213,7 @@ dialog#speakerDialog::-webkit-scrollbar-corner {
 } */
 
 /* Soluzione per iOS - aggiunge un indicatore di scorrimento visibile */
-@supports (-webkit-touch-callout: none) {
+/* @supports (-webkit-touch-callout: none) {
     dialog#speakerDialog {
         position: relative;
     }
@@ -230,7 +228,7 @@ dialog#speakerDialog::-webkit-scrollbar-corner {
         background-color: #000000;
         pointer-events: none;
     }
-}
+} */
 
 dialog#speakerDialog button {
     position: absolute;
