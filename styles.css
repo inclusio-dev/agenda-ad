@@ -35,7 +35,7 @@ select {
 
 select {
     background-color: white;
-    color: black;
+    color: #333;
     border: 1px solid #ccc;
     border-radius: 4px;
     padding: 8px 12px;
@@ -125,7 +125,7 @@ input {
     font-family: inherit;
     padding: 8px;
     margin-right: 10px;
-    border: 1px solid black;
+    border: 1px solid #333;
 }
 button {
     font-family: inherit;
@@ -265,7 +265,7 @@ dialog#speakerDialog div.container div {
 .event-card.color-dark-pink .event-description summary {
     background: transparent;
     border-color: #b51963;
-    color: #000000;
+    color: #333;
 }
 
 .event-card.color-dark-blue {
@@ -276,7 +276,7 @@ dialog#speakerDialog div.container div {
 .event-card.color-dark-blue .event-description summary {
     background: transparent;
     border-color: #054fb9;
-    color: #000000;
+    color: #333;
 }
 
 .event-card.color-acid-green {
@@ -287,7 +287,7 @@ dialog#speakerDialog div.container div {
 .event-card.color-acid-green .event-description summary {
     background: transparent;
     border-color: #89ce00;
-    color: #000000;
+    color: #333;
 }
 
 .event-card.color-tiffany {
@@ -298,7 +298,7 @@ dialog#speakerDialog div.container div {
 .event-card.color-tiffany .event-description summary {
     background: transparent;
     border-color: #00b4c5;
-    color: #000000;
+    color: #333;
 }
 
 .event-card.color-pink {
@@ -309,7 +309,7 @@ dialog#speakerDialog div.container div {
 .event-card.color-pink .event-description summary {
     background: transparent;
     border-color: #e47895;
-    color: #000000;
+    color: #333;
 }
 
 .event-card.color-orange {
@@ -320,7 +320,7 @@ dialog#speakerDialog div.container div {
 .event-card.color-orange .event-description summary {
     background: transparent;
     border-color: #f57600;
-    color: #000000;
+    color: #333;
 }
 
 .event-card.color-lilla {
@@ -331,7 +331,7 @@ dialog#speakerDialog div.container div {
 .event-card.color-lilla .event-description summary {
     background: transparent;
     border-color: #9b8bf4;
-    color: #000000;
+    color: #333;
 }
 
 .event-card button {
