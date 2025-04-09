@@ -183,8 +183,8 @@ ul.presenters-list > li::before {
 
 dialog#speakerDialog {
     flex-direction: column;
-    width: 80vw;
-    height: 90vh;
+    width: 80%;
+    height: 80%;
     overflow-y: scroll;
     padding: 2rem;
     scrollbar-width: thin;
