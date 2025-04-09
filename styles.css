@@ -184,6 +184,7 @@ ul.presenters-list > li::before {
 dialog#speakerDialog {
     flex-direction: column;
     width: 80vw;
+    height: 90vh;
     overflow-y: scroll;
     padding: 2rem;
     scrollbar-width: thin;
@@ -242,13 +243,14 @@ dialog#speakerDialog img {
 }
 
 dialog#speakerDialog div.container {
-    display: flex;
-    flex-direction: column;
+    display: block;
+    
     gap: 2rem;
 }
 
 dialog#speakerDialog div.container div {
-    width: 100%;
+    width: fit-content;
+    grid-area: 1 / 2 / 2 / 4;
 }
 
 .color-white {
@@ -330,7 +332,7 @@ dialog#speakerDialog div.container div {
     color: #333;
 }
 .event-card.color-tiffany .event-description summary{
-    background: #00b4c5;
+    background: rgba(0, 180, 197, 0.5);
     color: #000;
     border: 0;
     font-weight: 700;
@@ -427,7 +429,8 @@ dialog#speakerDialog div.container div {
     }
 
     dialog#speakerDialog div.container {
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
