@@ -186,8 +186,8 @@ dialog#speakerDialog {
     height: 90vh;
     overflow-y: scroll;
     padding: 2rem;
-    scrollbar-width: thin;
-    scrollbar-color: #000000 transparent;
+/*     scrollbar-width: thin;
+    scrollbar-color: #000000 transparent; */
 }
 
 /* Personalizzazione barra di scorrimento per il dialog */
