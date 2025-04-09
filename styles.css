@@ -175,6 +175,7 @@ dialog#speakerDialog {
     flex-direction: column;
     height: 90vh;
     width: 80vw;
+    overflow-y: scroll
 }
 
 dialog#speakerDialog button {
@@ -196,6 +197,30 @@ dialog#speakerDialog div.container {
 }
 dialog#speakerDialog div.container div {
     width: 100%;
+}
+
+/* Personalizzazione barra di scorrimento per il dialog */
+dialog#speakerDialog::-webkit-scrollbar {
+    width: 10px;
+}
+
+dialog#speakerDialog::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+dialog#speakerDialog::-webkit-scrollbar-thumb {
+    background: #000000;
+    border-radius: 0;
+}
+
+dialog#speakerDialog::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+/* Stile per Firefox */
+dialog#speakerDialog {
+    scrollbar-width: thin;
+    scrollbar-color: #000000 transparent;
 }
 
 .color-white {
