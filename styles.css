@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 body {
     font-family: "Montserrat", sans-serif;
     margin: 0;
@@ -13,26 +13,27 @@ h1 {
     color: #0f0011;
     font-size: 2.027rem;
 }
-h2{
+h2 {
     font-size: 1.802rem;
 }
-h3{
+h3 {
     font-size: 1.602rem;
 }
-h4{
+h4 {
     font-size: 1.424rem;
 }
-h5{
+h5 {
     font-size: 1.266rem;
 }
-h6{
+h6 {
     font-size: 1.125rem;
 }
-input, select{
+input,
+select {
     width: 90%;
 }
 
-select{
+select {
     background-color: white;
     color: black;
     border: 1px solid #ccc;
@@ -48,13 +49,12 @@ select{
     background-size: 16px;
     box-sizing: border-box;
     width: 100%;
-    max-width: 300px;
 }
 .day-section {
     margin-bottom: 40px;
 }
 .day-header {
-    background-color: #FFD200;
+    background-color: #ffd200;
     color: #0f0011;
     padding: 1rem;
 }
@@ -66,7 +66,8 @@ select{
     margin-bottom: 10px;
     color: #0f0011;
 }
-.event-container.session-container, .event-container.workshop-container {
+.event-container.session-container,
+.event-container.workshop-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
@@ -112,17 +113,19 @@ select{
 .filter-group {
     margin-bottom: 10px;
 }
-.filter-group input{
+.filter-group input {
     margin-bottom: 1rem;
 }
 .filter-title {
     font-weight: bold;
     margin-bottom: 5px;
 }
-select, input {
+select,
+input {
     font-family: inherit;
     padding: 8px;
     margin-right: 10px;
+    border: 1px solid black;
 }
 button {
     font-family: inherit;
@@ -134,10 +137,10 @@ button {
     cursor: pointer;
     font-size: 1rem;
 }
-.event-card button{
+.event-card button {
     padding: 0.25rem 1rem;
 }
-summary{
+summary {
     border-radius: 4px;
     padding: 0.5rem 1rem;
 }
@@ -168,29 +171,31 @@ ul.presenters-list > li::before {
     left: 0;
 }
 
-dialog#speakerDialog{
-    width: 70vw;
+dialog#speakerDialog {
     flex-direction: column;
+    height: 90vh;
+    width: 80vw;
 }
 
-dialog#speakerDialog button{
+dialog#speakerDialog button {
     position: absolute;
     right: 1rem;
     top: 1rem;
 }
 
-dialog#speakerDialog img{
+dialog#speakerDialog img {
     height: 10rem;
     width: 10rem;
     background-size: 10rem;
 }
 
-dialog#speakerDialog div.container{
+dialog#speakerDialog div.container {
     display: flex;
+    flex-direction: column;
     gap: 2rem;
 }
-dialog#speakerDialog div.container div{
-    width: 20rem;
+dialog#speakerDialog div.container div {
+    width: 100%;
 }
 
 .color-white {
@@ -198,97 +203,103 @@ dialog#speakerDialog div.container div{
     background-color: #f9f9f9;
 }
 
-.event-container.session-container:has(.event-card.color-white){
+.event-container.session-container:has(.event-card.color-white) {
     grid-template-columns: repeat(1, 1fr);
 }
 
 .event-card.color-dark-pink {
-    border-left: 10px solid #B51963;
+    border-left: 10px solid #b51963;
     background-color: rgba(181, 25, 99, 0.1);
 }
-.event-card.color-dark-pink button, .event-card.color-dark-pink .event-description summary{
+.event-card.color-dark-pink button,
+.event-card.color-dark-pink .event-description summary {
     background: transparent;
-    border-color: #B51963;
+    border-color: #b51963;
     color: #000000;
 }
 
 .event-card.color-dark-blue {
-    border-left: 10px solid #054FB9;
+    border-left: 10px solid #054fb9;
     background-color: rgba(5, 79, 185, 0.1);
 }
-.event-card.color-dark-blue button, .event-card.color-dark-blue .event-description summary{
+.event-card.color-dark-blue button,
+.event-card.color-dark-blue .event-description summary {
     background: transparent;
-    border-color: #054FB9;
+    border-color: #054fb9;
     color: #000000;
 }
 
 .event-card.color-acid-green {
-    border-left: 10px solid #89CE00;
+    border-left: 10px solid #89ce00;
     background-color: rgba(137, 206, 0, 0.1);
 }
-.event-card.color-acid-green button, .event-card.color-acid-green .event-description summary{
+.event-card.color-acid-green button,
+.event-card.color-acid-green .event-description summary {
     background: transparent;
-    border-color: #89CE00;
+    border-color: #89ce00;
     color: #000000;
 }
 
 .event-card.color-tiffany {
-    border-left: 10px solid #00B4C5;
+    border-left: 10px solid #00b4c5;
     background-color: rgba(0, 180, 197, 0.1);
 }
-.event-card.color-tiffany button, .event-card.color-tiffany .event-description summary{
+.event-card.color-tiffany button,
+.event-card.color-tiffany .event-description summary {
     background: transparent;
-    border-color: #00B4C5;
+    border-color: #00b4c5;
     color: #000000;
 }
 
 .event-card.color-pink {
-    border-left: 10px solid #E47895;
+    border-left: 10px solid #e47895;
     background-color: rgba(228, 120, 149, 0.1);
 }
-.event-card.color-pink button, .event-card.color-pink .event-description summary{
+.event-card.color-pink button,
+.event-card.color-pink .event-description summary {
     background: transparent;
-    border-color: #E47895;
+    border-color: #e47895;
     color: #000000;
 }
 
 .event-card.color-orange {
-    border-left: 10px solid #F57600;
+    border-left: 10px solid #f57600;
     background-color: rgba(245, 118, 0, 0.1);
 }
-.event-card.color-orange button, .event-card.color-orange .event-description summary{
+.event-card.color-orange button,
+.event-card.color-orange .event-description summary {
     background: transparent;
-    border-color: #F57600;
+    border-color: #f57600;
     color: #000000;
 }
 
 .event-card.color-lilla {
-    border-left: 10px solid #9B8BF4;
+    border-left: 10px solid #9b8bf4;
     background-color: rgba(155, 139, 244, 0.1);
 }
-.event-card.color-lilla button, .event-card.color-lilla .event-description summary{
+.event-card.color-lilla button,
+.event-card.color-lilla .event-description summary {
     background: transparent;
-    border-color: #9B8BF4;
+    border-color: #9b8bf4;
     color: #000000;
 }
 
-.event-card button{
+.event-card button {
     font-weight: 700;
     border-width: 4px;
     border-style: solid;
     text-transform: capitalize;
 }
 
-.event-card summary{
-    border-width: 2px;
+.event-card summary {
+    border-width: 4px;
     border-style: solid;
 }
 
-
 /* Responsive design */
 
-@media screen and (min-width: 768px) {
-    .event-container.session-container{
+@media screen and (min-width: 1025px) {
+    .event-container.session-container {
         grid-template-columns: repeat(3, 1fr);
     }
 
@@ -296,25 +307,30 @@ dialog#speakerDialog div.container div{
         grid-template-columns: repeat(4, 1fr);
     }
 
-    input, select{
-        width: 20rem;
+    input,
+    select {
+        width: 25rem;
     }
 
     dialog#speakerDialog {
         width: 40vw;
+        /* flex-direction: row; */
+    }
+
+    dialog#speakerDialog div.container {
         flex-direction: row;
     }
 }
 
-.only-print{
+.only-print {
     display: none;
 }
 
-.not-print{
+.not-print {
     display: block;
 }
 
-@media print {
+/* @media print {
 
 
     *, h1, h2, h3, h4, h5, h6{
@@ -396,8 +412,6 @@ dialog#speakerDialog div.container div{
     .time-slot{
         display: flex;
         gap: 1rem;
-        
-
     }
 
     .session-container .time-slot:first-of-type{
@@ -412,7 +426,4 @@ dialog#speakerDialog div.container div{
         grid-template-columns: repeat(4, 1fr);
     }
 
-    /* main, .event-container, .event-card{
-        border: 1px solid black;
-    } */
-}
+} */

@@ -1,7 +1,31 @@
-// Funzione per caricare e analizzare il file JSON
+document.addEventListener('DOMContentLoaded', () => {
+    init();
+    setupDialogAccessibility();
+});
+
+// Aggiunta funzione per configurare l'accessibilità del dialog
+function setupDialogAccessibility() {
+    const dialog = document.querySelector('#speakerDialog');
+    
+    // Gestione click fuori dal dialog
+    dialog.addEventListener('click', (event) => {
+        // Se il click è sul dialog stesso (non su un suo contenuto)
+        if (event.target === dialog) {
+            closeDialog();
+        }
+    });
+    
+    // Imposta il focus iniziale sul pulsante di chiusura quando si apre il dialog
+    dialog.addEventListener('open', () => {
+        const closeButton = dialog.querySelector('.close');
+        if (closeButton) {
+            setTimeout(() => closeButton.focus(), 100);
+        }
+    });
+}
+
 async function loadProgram() {
     try {
-        // Carica il file JSON direttamente dalla stessa cartella
         const response = await fetch('agendas.json');
         if (!response.ok) {
             throw new Error(`Errore HTTP: ${response.status}`);
@@ -14,7 +38,6 @@ async function loadProgram() {
     }
 }
 
-// Funzione per ottenere il colore CSS in base al colore esadecimale
 function getColorClass(hexColor) {
     if (!hexColor) return 'color-white';
     
@@ -31,60 +54,7 @@ function getColorClass(hexColor) {
     }
 }
 
-// Funzione per creare una lista di relatori
-function createPresentersList(presenters) {
-    
-    if (!presenters || presenters === '') return '';
-    
-    // Dividi la stringa dei presentatori
-    // La divisione è complessa perché i presentatori possono essere formattati in modi diversi
-    // Esempio: "Nome Cognome (Ruolo @ Azienda), Altro Nome (Ruolo)"
-    let presentersList = [];
-    
-    // Suddividi per virgole, ma non quelle tra parentesi
-    let inParenthesis = false;
-    let currentPresenter = '';
-    
-    for (let i = 0; i < presenters.length; i++) {
-        const char = presenters[i];
-        
-        if (char === '(') inParenthesis = true;
-        else if (char === ')') inParenthesis = false;
-        
-        if (char === ',' && !inParenthesis) {
-            if (currentPresenter.trim()) {
-                presentersList.push(currentPresenter.trim());
-            }
-            currentPresenter = '';
-        } else {
-            currentPresenter += char;
-        }
-    }
-    
-    // Aggiungi l'ultimo presentatore
-    if (currentPresenter.trim()) {
-        presentersList.push(currentPresenter.trim());
-    }
-    
-    // Se non ci sono stati relatori identificati, usa l'intera stringa
-    if (presentersList.length === 0 && presenters.trim()) {
-        presentersList = [presenters];
-    }
-    
-    // Crea la lista HTML
-    let html = '<div class="event-presenter"><strong>Relatori:</strong>';
-    html += '<ul class="presenters-list">';
-    
-    presentersList.forEach(presenter => {
-        html += `<li>${presenter}</li>`;
-    });
-    
-    html += '</ul></div>';
-    return html;
-}
-
 function createSpeakersList(speakers) {
-    // Crea la lista HTML
     let html = '<div class="event-presenter"><strong>Speaker:</strong>';
     html += '<ul class="presenters-list">';
     
@@ -114,6 +84,7 @@ function createSpeakersList(speakers) {
                 data-picture="${(speaker.profile_picture_url || '')}"
                 onClick="openSpeakerModal(event)"
                 class="not-print"
+                aria-haspopup="dialog"
             >
             ${speaker.first_name+' '+speaker.last_name}
             </button>
@@ -138,8 +109,6 @@ function openSpeakerModal(e) {
 
     const dialog = document.querySelector('#speakerDialog');
     
-    // Popola il dialog con i dati dello speaker
-    //document.querySelector('#modalTitle').textContent = `${firstName} ${lastName}`;
     document.querySelector('#name').textContent = firstName;
     document.querySelector('#surname').textContent = lastName;
     document.querySelector('#jobTitle').textContent = jobTitle || '';
@@ -147,72 +116,58 @@ function openSpeakerModal(e) {
     document.querySelector('#bio').textContent = bio || '';
     document.querySelector('#picture') ? document.querySelector('#picture').style.backgroundImage = "url('"+picture+"')" || '' : '';
     
-    const cleanup = clickOutside(dialog, () => {
-        dialog.close();
-    });
-
-    // Apri il dialog
+    // Salva l'elemento che aveva il focus prima di aprire il dialog
+    dialog.lastActiveElement = document.activeElement;
+    
     dialog.showModal();
     document.querySelector("body").style.overflow = "hidden";
+    
+    // Annuncio per screen reader che il dialog è stato aperto
+    announceToScreenReader(`Dialog aperto: Dettagli di ${firstName} ${lastName}`);
 }
 
-/**
- * Gestisce il click all'esterno di un dialog
- * @param {HTMLDialogElement} dialog - Dialog da monitorare
- * @param {Function} callback - Funzione da eseguire al click esterno
- */
-function clickOutside(dialog, callback) {
-    // Funzione per il click esterno
-    const handleClick = (e) => {
-      if (dialog.open && !dialog.contains(e.target)) {
-        callback(e);
-      }
-    };
+function closeDialog(){
+    const dialog = document.querySelector('#speakerDialog');
+    document.querySelector("body").style.overflow = "auto";
+    dialog.close();
     
-    // Aggiungi listener solo all'apertura
-    dialog.addEventListener('open', () => {
-      document.addEventListener('click', handleClick);
-    });
-    
-    // Rimuovi listener alla chiusura
-    dialog.addEventListener('close', () => {
-      document.removeEventListener('click', handleClick);
-    });
-    
-    // Se è già aperto, aggiungi subito il listener
-    if (dialog.open) {
-      document.addEventListener('click', handleClick);
+    // Ripristina il focus all'elemento che era attivo prima dell'apertura del dialog
+    if (dialog.lastActiveElement) {
+        dialog.lastActiveElement.focus();
     }
     
-    // Funzione per rimuovere tutti i listener
-    return () => {
-      document.removeEventListener('click', handleClick);
-      dialog.removeEventListener('open', () => {
-        document.addEventListener('click', handleClick);
-      });
-      dialog.removeEventListener('close', () => {
-        document.removeEventListener('click', handleClick);
-      });
-    };
-  }
-  
-  // Uso: const cleanup = clickOutside(dialogElement, () => dialogElement.close());
+    // Annuncio per screen reader che il dialog è stato chiuso
+    announceToScreenReader('Dialog chiuso');
+}
 
-function closeDialog(){
-    document.querySelector("body").style.overflow = "auto";
-    document.querySelector('#speakerDialog').close();
+// Funzione ausiliaria per annunci di screen reader
+function announceToScreenReader(message) {
+    // Cerca un elemento esistente per gli annunci, o ne crea uno
+    let announcer = document.getElementById('sr-announcer');
+    if (!announcer) {
+        announcer = document.createElement('div');
+        announcer.id = 'sr-announcer';
+        announcer.setAttribute('aria-live', 'polite');
+        announcer.setAttribute('aria-atomic', 'true');
+        announcer.style.position = 'absolute';
+        announcer.style.width = '1px';
+        announcer.style.height = '1px';
+        announcer.style.overflow = 'hidden';
+        announcer.style.clip = 'rect(0, 0, 0, 0)';
+        document.body.appendChild(announcer);
+    }
+    
+    // Aggiorna il contenuto per far scattare l'annuncio
+    announcer.textContent = message;
 }
 
 function handleKeydownDialog(event){
     if (event.key === 'Escape' || event.key === 'Esc' || event.keyCode === 27) {        
         closeDialog();
         event.preventDefault();
-      }
+    }
 }
-    
-    
 
-// Funzione per generare l'HTML di un evento
 function createEventCard(item) {
     const colorClass = getColorClass(item.color);
     
@@ -230,7 +185,6 @@ function createEventCard(item) {
 
     /* ${item.presenters && item.presenters !== '' ? createPresentersList(item.presenters) : ''} */
 
-
     return `
         <div class="event-card ${colorClass}" data-id="${item.id}">
          <div class="event-id">ID: ${item.id}</div> 
@@ -245,7 +199,6 @@ function createEventCard(item) {
     `;
 }
 
-// Funzione per renderizzare il programma
 function renderProgram(data, filters = {}) {
     const container = document.getElementById('program-container');
     container.innerHTML = '';
@@ -334,7 +287,6 @@ function renderProgram(data, filters = {}) {
     }
 }
 
-// Funzione per popolare i filtri
 function populateFilters(data) {
     const agendaFilter = document.getElementById('agenda-filter');
     const locationFilter = document.getElementById('location-filter');
@@ -450,9 +402,3 @@ function resetFilters() {
     
     renderProgram(window.programData);
 }
-
-// Carica il file JSON quando il documento è pronto
-document.addEventListener('DOMContentLoaded', function() {
-    // Inizializzazione dell'applicazione
-    init();
-});
