@@ -170,12 +170,53 @@ ul.presenters-list > li::before {
     position: absolute;
     left: 0;
 }
-
 dialog#speakerDialog {
     flex-direction: column;
     height: 90vh;
     width: 80vw;
-    overflow-y: scroll
+    overflow-y: scroll;
+    padding: 2rem;
+    scrollbar-width: thin;
+    scrollbar-color: #000000 transparent;
+}
+
+/* Personalizzazione barra di scorrimento per il dialog */
+dialog#speakerDialog::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+    -webkit-appearance: none;
+    display: block;
+}
+
+dialog#speakerDialog::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+dialog#speakerDialog::-webkit-scrollbar-thumb {
+    background: #000000;
+    border-radius: 0;
+}
+
+dialog#speakerDialog::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+/* Soluzione per iOS - aggiunge un indicatore di scorrimento visibile */
+@supports (-webkit-touch-callout: none) {
+    dialog#speakerDialog {
+        position: relative;
+    }
+    
+    dialog#speakerDialog::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 4px;
+        height: 100%;
+        background-color: #000000;
+        pointer-events: none;
+    }
 }
 
 dialog#speakerDialog button {
@@ -195,32 +236,9 @@ dialog#speakerDialog div.container {
     flex-direction: column;
     gap: 2rem;
 }
+
 dialog#speakerDialog div.container div {
     width: 100%;
-}
-
-/* Personalizzazione barra di scorrimento per il dialog */
-dialog#speakerDialog::-webkit-scrollbar {
-    width: 10px;
-}
-
-dialog#speakerDialog::-webkit-scrollbar-track {
-    background: transparent;
-}
-
-dialog#speakerDialog::-webkit-scrollbar-thumb {
-    background: #000000;
-    border-radius: 0;
-}
-
-dialog#speakerDialog::-webkit-scrollbar-corner {
-    background: transparent;
-}
-
-/* Stile per Firefox */
-dialog#speakerDialog {
-    scrollbar-width: thin;
-    scrollbar-color: #000000 transparent;
 }
 
 .color-white {
