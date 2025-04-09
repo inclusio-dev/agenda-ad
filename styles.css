@@ -50,6 +50,9 @@ select {
     box-sizing: border-box;
     width: 100%;
 }
+
+
+
 .day-section {
     margin-bottom: 40px;
 }
@@ -280,13 +283,13 @@ dialog#speakerDialog div.container div {
 }
 
 .event-card.color-acid-green {
-    border-left: 10px solid #89ce00;
-    background-color: rgba(137, 206, 0, 0.1);
+    border-left: 10px solid #006400;
+    background-color: rgba(0, 100, 0, 0.1);
 }
 .event-card.color-acid-green button,
 .event-card.color-acid-green .event-description summary {
     background: transparent;
-    border-color: #89ce00;
+    border-color: #006400;
     color: #333;
 }
 
