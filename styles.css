@@ -31,13 +31,13 @@ h6 {
 input,
 select {
     width: 90%;
+    border-radius: 4px;
 }
 
 select {
     background-color: white;
     color: #333;
     border: 1px solid #ccc;
-    border-radius: 4px;
     padding: 8px 12px;
     font-size: 16px;
     appearance: none;
