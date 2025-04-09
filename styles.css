@@ -186,30 +186,9 @@ dialog#speakerDialog {
     height: 90vh;
     overflow-y: scroll;
     padding: 2rem;
-/*     scrollbar-width: thin;
+/*  scrollbar-width: thin;
     scrollbar-color: #000000 transparent; */
 }
-
-/* Personalizzazione barra di scorrimento per il dialog */
-/* dialog#speakerDialog::-webkit-scrollbar {
-    width: 4px;
-    height: 4px;
-    -webkit-appearance: none;
-    display: block;
-}
-
-dialog#speakerDialog::-webkit-scrollbar-track {
-    background: transparent;
-}
-
-dialog#speakerDialog::-webkit-scrollbar-thumb {
-    background: #000000;
-    border-radius: 0;
-}
-
-dialog#speakerDialog::-webkit-scrollbar-corner {
-    background: transparent;
-} */
 
 dialog#speakerDialog button {
     position: absolute;
@@ -387,8 +366,6 @@ dialog#speakerDialog div.container div {
     border-style: solid;
 }
 
-/* Responsive design */
-
 @media screen and (min-width: 1025px) {
     .event-container.session-container {
         grid-template-columns: repeat(3, 1fr);
@@ -404,6 +381,7 @@ dialog#speakerDialog div.container div {
     }
 
     dialog#speakerDialog {
+        overflow-y: hidden;
         width: 40vw;
         height: fit-content;
     }
