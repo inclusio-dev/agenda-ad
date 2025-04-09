@@ -384,6 +384,7 @@ dialog#speakerDialog div.container div {
         overflow-y: hidden;
         width: 40vw;
         height: fit-content;
+        scrollbar-width: none;
     }
 
     dialog#speakerDialog div.container {
